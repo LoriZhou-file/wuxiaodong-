@@ -43,10 +43,10 @@ export default function App() {
           <Landmark className="w-5 h-5 text-stonegrey" />
           <div className="flex flex-col">
             <h1 className="font-display font-medium text-sm tracking-widest text-[#121210]">
-              WU XIAODONG // 吴晓东
+              WU XIAODONG // 吳曉東
             </h1>
             <span className="text-[8.5px] font-mono text-stonegrey/60 uppercase tracking-widest">
-              OFFICIAL WEBSITE // 艺术家官网
+              OFFICIAL WEBSITE // 藝術家官網
             </span>
           </div>
         </div>
@@ -54,16 +54,16 @@ export default function App() {
         {/* Desktop Navigation */}
         <nav className="hidden lg:flex items-center space-x-10 font-mono text-[11px] tracking-widest text-stonegrey/80">
           <button onClick={() => scrollToSection("philosophy-section")} className="hover:text-charcoal cursor-pointer transition-colors">
-            {lang === "zh" ? "① 视觉核心" : "① VISUAL PHILOSOPHY"}
+            {lang === "zh" ? "① 視覺核心" : "① VISUAL PHILOSOPHY"}
           </button>
           <button onClick={() => scrollToSection("portfolio-section")} className="hover:text-charcoal cursor-pointer transition-colors">
-            {lang === "zh" ? "② 作品档案" : "② PORTFOLIO ARCHIVES"}
+            {lang === "zh" ? "② 作品檔案" : "② PORTFOLIO ARCHIVES"}
           </button>
           <button onClick={() => scrollToSection("bio-section")} className="hover:text-charcoal cursor-pointer transition-colors">
-            {lang === "zh" ? "③ 学术履历" : "③ BIOGRAPHY"}
+            {lang === "zh" ? "③ 學術履歷" : "③ BIOGRAPHY"}
           </button>
           <button onClick={() => scrollToSection("archive-section")} className="hover:text-charcoal cursor-pointer transition-colors">
-            {lang === "zh" ? "④ 批判文献" : "④ CRITICAL RESEARCH"}
+            {lang === "zh" ? "④ 批判文獻" : "④ CRITICAL RESEARCH"}
           </button>
         </nav>
 
@@ -103,22 +103,22 @@ export default function App() {
       {isMobileMenuOpen && (
         <div className="fixed inset-0 top-[60px] bg-moonwhite/95 z-30 flex flex-col p-6 space-y-8 font-mono tracking-widest text-[#F2F2F2] lg:hidden select-none">
           <button onClick={() => scrollToSection("philosophy-section")} className="text-left py-3 border-b border-stonegrey/10 text-sm">
-            {lang === "zh" ? "① 视觉核心" : "① VISUAL PHILOSOPHY"}
+            {lang === "zh" ? "① 視覺核心" : "① VISUAL PHILOSOPHY"}
           </button>
           <button onClick={() => scrollToSection("portfolio-section")} className="text-left py-3 border-b border-stonegrey/10 text-sm">
-            {lang === "zh" ? "② 作品档案" : "② PORTFOLIO ARCHIVES"}
+            {lang === "zh" ? "② 作品檔案" : "② PORTFOLIO ARCHIVES"}
           </button>
           <button onClick={() => scrollToSection("bio-section")} className="text-left py-3 border-b border-stonegrey/10 text-sm">
-            {lang === "zh" ? "③ 学术履历" : "③ BIOGRAPHY"}
+            {lang === "zh" ? "③ 學術履歷" : "③ BIOGRAPHY"}
           </button>
           <button onClick={() => scrollToSection("archive-section")} className="text-left py-3 border-b border-stonegrey/10 text-sm">
-            {lang === "zh" ? "④ 批判文献" : "④ CRITICAL RESEARCH"}
+            {lang === "zh" ? "④ 批判文獻" : "④ CRITICAL RESEARCH"}
           </button>
           <div className="pt-6">
             <span className="text-[9px] text-stonegrey/50 block mb-2 uppercase select-none">DIGITAL STUDIO STATUS</span>
             <div className="flex items-center space-x-2 text-xs">
               <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-              <span>CARBON_CODE_STABLE // 数字美术馆在线</span>
+              <span>CARBON_CODE_STABLE // 數字美術館在線</span>
             </div>
           </div>
         </div>
@@ -136,14 +136,14 @@ export default function App() {
           {/* Foreground Title elements in contemporary Helvetica / Sans style */}
           <div className="max-w-5xl z-10 px-4">
             <span className="font-mono text-xs text-stonegrey/60 tracking-[0.25em] uppercase block mb-4 animate-fade-in text-justify-center">
-              {lang === "zh" ? "第三条路线 // 碳基自然主义" : "THE THIRD ROUTE // CARBON-BASED NATURALISM"}
+              {lang === "zh" ? "第三條路線 // 碳基自然主義" : "THE THIRD ROUTE // CARBON-BASED NATURALISM"}
             </span>
             
             {/* Massive bilingual title to make Wu Xiaodong's Chinese/English name highly eye-catching and clear */}
             <div className="mb-6 flex flex-col items-center justify-center text-center">
               <h1 className="font-display font-extrabold text-5xl md:text-7xl lg:text-8xl tracking-tight selection:bg-yellow-500 selection:text-black select-text leading-tight mb-2">
                 <span className="text-[#FFFFFF] font-semibold drop-shadow-[0_0_20px_rgba(255,255,255,0.2)] block md:inline tracking-wider">
-                  吴晓东
+                  吳曉東
                 </span>
                 <span className="hidden md:inline text-stonegrey mx-4 font-light">/</span>
                 <span className="text-yellow-500 font-light text-3xl md:text-5xl lg:text-6xl tracking-widest block md:inline font-mono uppercase mt-2 md:mt-0">
@@ -152,23 +152,23 @@ export default function App() {
               </h1>
               
               <h2 className="font-serif font-light italic text-xl md:text-3xl text-stonegrey tracking-wider select-text mt-3">
-                {lang === "zh" ? "—— 介于碳基材质与算法代码之间 ——" : "— between Carbon and Code —"}
+                {lang === "zh" ? "—— 介於碳基材質與算法代碼之間 ——" : "— between Carbon and Code —"}
               </h2>
             </div>
 
             <p className="font-serif italic text-base md:text-xl text-charcoal/90 font-medium max-w-3xl mx-auto mb-10 leading-relaxed select-text">
               {lang === "zh" 
-                ? "“手工材质的水墨痕迹（碳）对抗数字化芯片的计算（代码）。我用地球重力的自然流淌，在宣纸缝隙中寻找物质抵抗的共振。”"
-                : "“Handcrafted carbon traces resisting the sterile calculations of silicon chips. Drawing from gravity fields, I hunt for friction inside raw cellulose fibers.”"}
+                ? ""手工材質的水墨痕跡（碳）對抗數字化晶片的計算（代碼）。我用地球重力的自然流淌，在宣紙縫隙中尋找物質抵抗的共振。""
+                : ""Handcrafted carbon traces resisting the sterile calculations of silicon chips. Drawing from gravity fields, I hunt for friction inside raw cellulose fibers.""}
             </p>
 
             {/* Micro button trigger to scroll */}
             <div className="flex flex-col md:flex-row justify-center items-center gap-4">
               <button 
                 onClick={() => scrollToSection("portfolio-section")}
-                className="px-6 py-3 bg-charcoal text-moonwhite hover:bg-stonegrey border border-stonegrey/10 rounded-sm font-mono text-xs tracking-widest cursor-pointer shadow-md transition-all uppercase flex items-center space-x-2"
+                className="px-6 py-3 bg-charcoal text-moonwhite hover:bg-stonegrey border border-stonegrey/10 rounded-sm font-mono text-xs tracking-widest cursor-pointer shadow-md transition-all flex items-center space-x-2"
               >
-                <span>ENTER ARCHIVES // 进入作品展厅</span>
+                <span>ENTER ARCHIVES // 進入作品展廳</span>
                 <CornerRightDown className="w-3.5 h-3.5 text-yellow-500" />
               </button>
               
@@ -176,20 +176,20 @@ export default function App() {
                 onClick={() => scrollToSection("philosophy-section")}
                 className="px-6 py-3 bg-silk text-charcoal hover:bg-neutral-200 border border-stonegrey/15 rounded-sm font-mono text-xs tracking-widest cursor-pointer transition-all uppercase"
               >
-                {lang === "zh" ? "研读视觉哲学" : "STUDY PHILOSOPHY"}
+                {lang === "zh" ? "研讀視覺哲學" : "STUDY PHILOSOPHY"}
               </button>
             </div>
           </div>
 
           {/* Minimal coordinate footer overlays */}
           <div className="absolute bottom-6 left-12 hidden lg:flex flex-col space-y-1 font-mono text-[9px] text-[#484844]/60 uppercase tracking-widest text-left select-none">
-            <span>ARTIST: 吴晓东 // G.1968 SHANGHAI-JINGDEZHEN</span>
-            <span>MEDIUM: MIXED MEDIA ON XUAN PAPER // 纸本综合材料</span>
+            <span>ARTIST: 吳曉東 // G.1968 SHANGHAI-JINGDEZHEN</span>
+            <span>MEDIUM: MIXED MEDIA ON XUAN PAPER // 紙本綜合材料</span>
           </div>
 
           <div className="absolute bottom-6 right-12 hidden lg:flex flex-col space-y-1 font-mono text-[9px] text-[#484844]/60 uppercase tracking-widest text-right select-none">
-            <span>CURATOR: POWERLONG MUSEUM RESEARCH GRP // 宝龙学术支持</span>
-            <span>SYSTEM_STATUS: LIVE_PARTICLES // 实时重力场</span>
+            <span>CURATOR: POWERLONG MUSEUM RESEARCH GRP // 寶龍學術支持</span>
+            <span>SYSTEM_STATUS: LIVE_PARTICLES // 實時重力場</span>
           </div>
         </section>
 
@@ -205,16 +205,16 @@ export default function App() {
                 <div className="absolute inset-0 wu-silicon-grid opacity-30" />
                 
                 <span className="font-mono text-[9px] text-stonegrey tracking-widest uppercase block z-10">
-                  VISUAL METRICS // 秩序与物质的博弈
+                  VISUAL METRICS // 秩序與物質的博弈
                 </span>
 
                 <div className="z-10 py-10 flex flex-col space-y-6">
                   <div className="flex items-end justify-between border-b border-stonegrey/15 pb-2">
-                    <span className="font-mono text-xs text-stonegrey/60">CARBON TRACES (纸本墨晕)</span>
+                    <span className="font-mono text-xs text-stonegrey/60">CARBON TRACES (紙本墨暈)</span>
                     <span className="font-serif italic text-lg text-charcoal font-semibold">NON-LINEAR</span>
                   </div>
                   <div className="flex items-end justify-between border-b border-stonegrey/15 pb-2">
-                    <span className="font-mono text-xs text-stonegrey/60">SILICON ALGORITHMS (代码渲染)</span>
+                    <span className="font-mono text-xs text-stonegrey/60">SILICON ALGORITHMS (代碼渲染)</span>
                     <span className="font-mono text-sm text-[#cb6d31] font-bold">PREDICTABLE</span>
                   </div>
                   <div className="flex items-end justify-between border-b border-stonegrey/15 pb-2">
@@ -232,38 +232,38 @@ export default function App() {
 
             <div className="lg:col-span-7 flex flex-col justify-center space-y-6">
               <span className="font-mono text-xs text-stonegrey/60 uppercase tracking-widest block">
-                The Dialogue of Carbon & Silicon // 研读材质思想
+                The Dialogue of Carbon & Silicon // 研讀材質思想
               </span>
               
               {/* Filter used on custom title */}
               <h3 className="font-display font-semibold text-3xl md:text-4xl text-charcoal tracking-tight wu-ink-bleed-filter select-text leading-snug">
                 {lang === "zh" 
-                  ? "在宣纸的有机纤维中对抗算法的虚拟秩序"
+                  ? "在宣紙的有機纖維中對抗算法的虛擬秩序"
                   : "Challenging Virtual Algorithmic Rules inside Cellulose Fibers"}
               </h3>
 
               <div className="space-y-4 font-serif text-charcoal/80 text-base leading-relaxed text-justify select-text">
                 <p>
                   {lang === "zh"
-                    ? "当代艺术家吴晓东的实验聚焦于『第三条路线』。他的创作以极其冷峻的数字化秩序组织画面的基础网格体系，然而核心的颗粒呈现却要借由传统水墨颜料由于“毛细孔效应”和“重力渗透”自然形成的微观轨迹。这并非是单纯的手工复归，而是一种针对虚拟屏幕完美控制力的材料学阻力抵抗。"
-                    : "Wu Xiaodong's radical framework concentrates on 'The Third Route'. While the composition is locked into precise technical grids embodying cybernetic layout, the actual marks exist only as a physical byproduct of water infiltration and gravity pulling ink downward through raw Xuan paper fibers—constituting an organic form of materials resistance."}
+                    ? "當代藝術家吳曉東的實驗聚焦於『第三條路線』。他的創作以極其冷峻的數字化秩序組織畫面的基礎網格體系，然而核心的顆粒呈現的卻是非線性的物理滲透——手工宣紙纖維上的有機擴散與墨色自由流淌。"
+                    : "Wu Xiaodong's radical framework concentrates on 'The Third Route'. While the composition is locked into precise technical grids embodying cybernetic layout, the actual marks capture the organic, non-linear flow of gravity and diffusion."}
                 </p>
                 <p>
                   {lang === "zh"
-                    ? "他的绘画不仅展现了植物（松、竹、荷）与山石在物理重力（Vertical Fluidity）干预下，颜料自然坠溅下泄的过程，更是将像素点阵升华为基因微观结构（Gene-matrix Dot），在宣纸这一高度亲水、富有生物细胞特性的『生物基质』上吐纳呼吸、自我扩散。"
-                    : "His painting operates as a natural computer registry. Spanning organic series of pines, bamboos, and boulders, pigments undergo vertical drainage representing precise fluid dynamics (Vertical Fluidity). Simultaneously, sterile matrix clusters grow and multiply organically as gene-matrix dots over cellular paper cellulose substrates."}
+                    ? "他的繪畫不僅展現了植物（松、竹、荷）與山石在物理重力（Vertical Fluidity）干預下，顏料自然墜濺下瀉的過程，更是將像素點陣與細胞繁衍、矽芯片計算與地球物理力場相互融合，創造了一種獨特的『碳與代碼之對話』。"
+                    : "His painting operates as a natural computer registry. Spanning organic series of pines, bamboos, and boulders, pigments undergo vertical drainage representing precise fluid dynamics merged with algorithmic beauty."}
                 </p>
               </div>
 
               <div className="pt-4 flex flex-wrap gap-4 select-none">
                 <div className="px-3.5 py-1.5 bg-silk border border-stonegrey/10 font-mono text-[9px] uppercase tracking-wider text-stonegrey">
-                  CELLULAR PULSATION // 细胞自繁衍
+                  CELLULAR PULSATION // 細胞自繁衍
                 </div>
                 <div className="px-3.5 py-1.5 bg-silk border border-stonegrey/10 font-mono text-[9px] uppercase tracking-wider text-stonegrey">
-                  GRAV-FIELD INTERVENTION // 重力力场核证
+                  GRAV-FIELD INTERVENTION // 重力力場核證
                 </div>
                 <div className="px-3.5 py-1.5 bg-silk border border-stonegrey/10 font-mono text-[9px] uppercase tracking-wider text-stonegrey">
-                  XUAN FIBER COMPOSITE // 宣纸微观组织
+                  XUAN FIBER COMPOSITE // 宣紙微觀組織
                 </div>
               </div>
             </div>
@@ -283,11 +283,11 @@ export default function App() {
             {/* Left section: Curated academic bio notes (7 cols) */}
             <div className="lg:col-span-7 flex flex-col space-y-6">
               <span className="font-mono text-xs text-stonegrey/60 uppercase tracking-widest block">
-                Academic Profile // 学术档案与履历
+                Academic Profile // 學術檔案與履歷
               </span>
               
               <h2 className="font-display font-semibold text-3xl md:text-4xl text-charcoal tracking-tight leading-tight select-text">
-                吴晓东 (WU XIAODONG)
+                吳曉東 (WU XIAODONG)
               </h2>
 
               <p className="font-mono text-xs text-yellow-600 block tracking-widest uppercase">
@@ -297,13 +297,13 @@ export default function App() {
               <div className="space-y-4 font-serif text-charcoal/80 text-base leading-relaxed text-justify select-text">
                 <p>
                   {lang === "zh"
-                    ? "吴晓东，1968年生，当代艺术家，任教并进行学术探索于上海与陶瓷重镇景德镇。他在南京艺术学院、华东师范大学等核心院校积累了深厚的水墨造诣，并致力于宣纸（纸本综合材料）与高温瓷板绘画的深度探索。"
-                    : "Wu Xiaodong was born in 1968 and currently researches, teaches, and produces art in intense dialog between Shanghai and the porcelain capital of Jingdezhen. He refined his masterly control over natural pigment at the Nanjing University of the Arts and East China Normal University."}
+                    ? "吳曉東，1968年生，當代藝術家，任教並進行學術探索於上海與陶瓷重鎮景德鎮。他在南京藝術學院、華東師範大學等核心院校積累了深厚的學術訓練與創新實踐。"
+                    : "Wu Xiaodong was born in 1968 and currently researches, teaches, and produces art in intense dialog between Shanghai and the porcelain capital of Jingdezhen. He refined his artistic sensibility at Nanjing University of the Arts and East China Normal University."}
                 </p>
                 <p>
                   {lang === "zh"
-                    ? "作为徐悲鸿艺术学院（上海海事大学）等艺术学院的客座教授，他同时出任中国国际环境艺术委员会顾问、陶瓷艺术专业委员会顾问等高端学术教席，积极推动跨越“手绘碳基印迹”与“算法信息逻辑”的跨界实验绘画体系。"
-                    : "He serves as an academic leader, holding visiting professorships at the Xu Beihong School of Art (Shanghai Maritime University) and the Jiangxi Ceramic & Craft Institute. In addition, his credentials as an official advisor to the China International Environmental Art Committee place him at the forefront of contemporary art research globally."}
+                    ? "作為徐悲鴻藝術學院（上海海事大學）等藝術學院的客座教授，他同時出任中國國際環境藝術委員會顧問、陶瓷藝術專業委員會顧問，在當代藝術與陶瓷創新領域擁有舉足輕重的地位。"
+                    : "He serves as an academic leader, holding visiting professorships at the Xu Beihong School of Art (Shanghai Maritime University) and the Jiangxi Ceramic & Craft Institute. His intellectual leadership shapes discourse in contemporary visual arts and ceramic innovation."}
                 </p>
               </div>
 
@@ -311,9 +311,9 @@ export default function App() {
                 <div className="p-4 bg-moonwhite border border-stonegrey/15 rounded-sm flex items-start space-x-3 shadow-xs">
                   <div className="font-mono text-sm text-yellow-500 font-bold">A.</div>
                   <div>
-                    <strong className="block mb-1 font-display tracking-wide">{lang === "zh" ? "教授与顾问经历" : "Visiting Professorships"}</strong>
+                    <strong className="block mb-1 font-display tracking-wide">{lang === "zh" ? "教授與顧問經歷" : "Visiting Professorships"}</strong>
                     <span className="text-[11px] text-stonegrey/70 leading-relaxed block">
-                      {lang === "zh" ? "徐悲鸿艺术学院客座教授，江西陶瓷工艺美术职业技术学院客座教授。中国环境艺术委员会学术顾问。" : "Lecturer and official director leading environment art advisory roles across state ministries and art boards."}
+                      {lang === "zh" ? "徐悲鴻藝術學院客座教授，江西陶瓷工藝美術職業技術學院客座教授。中國環境藝術委員會學術顧問。" : "Lecturer and advisor at leading art institutions including Xu Beihong School of Art."}
                     </span>
                   </div>
                 </div>
@@ -321,9 +321,9 @@ export default function App() {
                 <div className="p-4 bg-moonwhite border border-stonegrey/15 rounded-sm flex items-start space-x-3 shadow-xs">
                   <div className="font-mono text-sm text-yellow-500 font-bold">B.</div>
                   <div>
-                    <strong className="block mb-1 font-display tracking-wide">{lang === "zh" ? "材料综合实验室" : "Materials Laboratory"}</strong>
+                    <strong className="block mb-1 font-display tracking-wide">{lang === "zh" ? "材料綜合實驗室" : "Materials Laboratory"}</strong>
                     <span className="text-[11px] text-stonegrey/70 leading-relaxed block">
-                      {lang === "zh" ? "在景德镇高温窑变釉料、高分子宣纸纤维扩散中建模，创造非凡的『第三条合成路线』。" : "Developing specialized paint formulas that register Earth gravity forces and microscopic physical erosion on paper."}
+                      {lang === "zh" ? "在景德鎮高溫窯變釉��、高分子宣紙纖維擴散中建模，創造非凡的『第三條合成路線』。" : "Developing specialized paint forms in Jingdezhen exploring ceramic glazes and paper diffusion."}
                     </span>
                   </div>
                 </div>
@@ -338,7 +338,7 @@ export default function App() {
                 {/* SVG portrait representation of a working contemporary visual scientist */}
                 <div className="relative w-full h-full bg-[#141414] border border-stonegrey/10 overflow-hidden flex flex-col justify-between p-6">
                   <span className="font-mono text-[8.5px] text-stonegrey uppercase tracking-widest block">
-                    WU_STUDIO_MONITOR // 工作现场
+                    WU_STUDIO_MONITOR // 工作現場
                   </span>
 
                   <div className="flex-1 flex flex-col justify-center items-center py-6 text-center space-y-4">
@@ -359,10 +359,10 @@ export default function App() {
 
                     <div className="space-y-1 select-text">
                       <p className="font-display font-medium text-xs text-charcoal">
-                        STUDIO PORTRAIT SCHEMATIC // 创作中
+                        STUDIO PORTRAIT SCHEMATIC // 創作中
                       </p>
                       <p className="font-serif italic text-[11px] text-stonegrey">
-                        *Shanghai & Jingdezhen (上海 / 景德镇双向往返材料实验)
+                        *Shanghai & Jingdezhen (上海 / 景德鎮雙向往返材料實驗)
                       </p>
                     </div>
                   </div>
@@ -404,18 +404,18 @@ export default function App() {
             <div className="space-y-3">
               <span className="text-[10px] text-stonegrey/50 block font-bold uppercase select-none">ARCHITECTURE</span>
               <ul className="space-y-2.5">
-                <li><button onClick={() => scrollToSection("portfolio-section")} className="hover:text-white transition-colors cursor-pointer text-[10px] uppercase">PORTFOLIO // 作品展厅</button></li>
-                <li><button onClick={() => scrollToSection("philosophy-section")} className="hover:text-white transition-colors cursor-pointer text-[10px] uppercase">PHILOSOPHY // 视觉哲学</button></li>
-                <li><button onClick={() => scrollToSection("bio-section")} className="hover:text-white transition-colors cursor-pointer text-[10px] uppercase">BIOGRAPHY // 学术背景</button></li>
+                <li><button onClick={() => scrollToSection("portfolio-section")} className="hover:text-white transition-colors cursor-pointer text-[10px] uppercase">PORTFOLIO // 作品展廳</button></li>
+                <li><button onClick={() => scrollToSection("philosophy-section")} className="hover:text-white transition-colors cursor-pointer text-[10px] uppercase">PHILOSOPHY // 視覺哲學</button></li>
+                <li><button onClick={() => scrollToSection("bio-section")} className="hover:text-white transition-colors cursor-pointer text-[10px] uppercase">BIOGRAPHY // 學術背景</button></li>
               </ul>
             </div>
 
             <div className="space-y-3">
               <span className="text-[10px] text-stonegrey/50 block font-bold uppercase select-none">ACADEMICS</span>
               <ul className="space-y-2.5 uppercase">
-                <li><a href="#archive-section" className="hover:text-white transition-colors text-[10px]">ARTFORUM REVIEWS // 艺术论坛</a></li>
-                <li><a href="#archive-section" className="hover:text-white transition-colors text-[10px]">POWERLONG SOLO TIMELINE // 宝龙个展</a></li>
-                <li><a href="#archive-section" className="hover:text-white transition-colors text-[10px]">THE THIRD ROUTE // 第三路线</a></li>
+                <li><a href="#archive-section" className="hover:text-white transition-colors text-[10px]">ARTFORUM REVIEWS // 藝術論壇</a></li>
+                <li><a href="#archive-section" className="hover:text-white transition-colors text-[10px]">POWERLONG SOLO TIMELINE // 寶龍個展</a></li>
+                <li><a href="#archive-section" className="hover:text-white transition-colors text-[10px]">THE THIRD ROUTE // 第三路線</a></li>
               </ul>
             </div>
 
@@ -435,7 +435,7 @@ export default function App() {
 
         </div>
 
-        <div className="max-w-7xl mx-auto px-6 md:px-12 mt-12 pt-8 border-t border-stonegrey/15 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] font-mono tracking-widest text-[#484844]/65 select-none">
+        <div className="max-w-7xl mx-auto px-6 md:px-12 mt-12 pt-8 border-t border-stonegrey/15 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] font-mono tracking-widest">
           <span>ALL BIOLOGICAL AND GRAPHIC CODES REGISTERED UNDER THE THIRD ROUTE.</span>
           <span>© 2026 WU XIAODONG. DESIGN BY DIGITAL LAB AGENT.</span>
         </div>
