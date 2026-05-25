@@ -66,7 +66,7 @@ export const artworks: Artwork[] = [
     descriptionEn: "Dripping vertical lines of yellow, green, violet and pure ink fall gracefully, documenting gravitational acceleration through raw paper fiber capillaries.",
     visualType: "vertical-fluid",
     colorPalette: ["#f4d03f", "#27ae60", "#8e44ad", "#141414"],
-    imageUrl: ""
+    imageUrl: "https://imagetourl.cloud/a5m70nnl.jpg"
   },
   {
     id: "triptych-1",
@@ -81,7 +81,7 @@ export const artworks: Artwork[] = [
     descriptionEn: "Deep organic carbon pigment saturates the paper layers, generating a network of bone-like white vectors and dendritic nerve outlines.",
     visualType: "cells-veins",
     colorPalette: ["#0f0f0f", "#424242", "#dedede", "#9a7d0a"],
-    imageUrl: ""
+    imageUrl: "https://imagetourl.cloud/boc3hicu.jpg"
   },
   {
     id: "plant-qi",
@@ -96,37 +96,37 @@ export const artworks: Artwork[] = [
     descriptionEn: "A golden twisted organic pine branch winds against an abyss of dense carbon mist, flanked with hundreds of microscopic vertical rainfall trails.",
     visualType: "vertical-fluid",
     colorPalette: ["#f1c40f", "#1c1c1c", "#566573", "#f8f9f9"],
-    imageUrl: ""
+    imageUrl: "https://imagetourl.cloud/91kzee7v.jpg"
   },
   {
     id: "plant-bamboo",
-    title: "植物系列 - 竹月",
+    title: "植物系列 - 竹",
     titleEn: "Plant Series - Bamboo & Moon",
     category: "biomatrix",
     year: "2022",
     medium: "紙本綜合材料",
     mediumEn: "Mixed media on paper",
-    dimensions: "218cm * 137cm",
+    dimensions: "181cm * 135cm",
     description: "高貴濃郁的紫羅蘭色夜空包裹著勁挺竹節，一輪巨型月輪在後方浮現。竹葉線條的銳利度與月白墨暈的朦朧，呈現無序物理浸潤對抗人工秩序的詩學對話。",
     descriptionEn: "Vibrant violet and glowing lunar white surround dynamic emerald bamboo stems, tracing ink bleeding borders where control yields to fluid physics.",
     visualType: "purple-bamboo",
     colorPalette: ["#5b2c6f", "#2ecc1e", "#f4f6f7", "#121212"],
-    imageUrl: ""
+    imageUrl: "https://imagetourl.cloud/j5szxssn.jpg"
   },
   {
     id: "plant-pine-shadow",
-    title: "植物系列 - 松日",
+    title: "植物系列 - 植物园",
     titleEn: "Plant Series - Pine & Sun",
     category: "biomatrix",
     year: "2022",
     medium: "紙本綜合材料",
     mediumEn: "Mixed media on paper",
-    dimensions: "218cm * 137cm",
+    dimensions: "230cm * 132cm",
     description: "盤蒼古松凌空，橫陳於巨大的橘紅色日輪之上。大量的墨珠、水痕、白粉淋漓於松針之間，形成了富含微觀顆粒感、重力流淌的繁盛景象。",
     descriptionEn: "A powerful primeval pine crosses a huge warm orange solar aura, capturing white splashes and black graphite droplets colliding on paper fibers.",
     visualType: "pine-shadow",
     colorPalette: ["#e67e22", "#196f3d", "#f7f9f9", "#111625"],
-    imageUrl: ""
+    imageUrl: "https://imagetourl.cloud/b18k4bqp.jpg"
   }
 ];
 
