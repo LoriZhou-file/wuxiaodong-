@@ -1,0 +1,6 @@
+{
+  "name": "Wu Xiaodong",
+  "description": "The official website of contemporary artist Wu Xiaodong, exploring Carbon-Based Naturalism and The Third Route.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

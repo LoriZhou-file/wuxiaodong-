@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-serif: "EB Garamond", serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-moonwhite: #0A0A0A;
+  --color-charcoal: #F2F2F2;
+  --color-stonegrey: #8E8E8E;
+  --color-silk: #121212;
+  --color-ink: #F2F2F2;
+}
+
+/* Custom Custom Core System Classes to ensure Cargo Collective and GitHub sandbox safety */
+.wu-ink-bleed-filter {
+  filter: url(#wu-ink-bleed);
+}
+
+.wu-paper-fiber-bg {
+  position: relative;
+}
+
+.wu-paper-fiber-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.05;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0%200%20200%20200'%20xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter%20id='noiseFilter'%3E%3CfeTurbulence%20type='fractalNoise'%20baseFrequency='0.65'%20numOctaves='3'%20stitchTiles='stitch'/%3E%3C/filter%3E%3Crect%20width='100%25'%20height='100%25'%20filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+/* Scrollbar styling for Sophisticated Dark theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0A0A0A;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2D2D2D;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #F2F2F2;
+}
+
+/* Fine grain grid overlays simulating silicon algorithm layout in dark theme */
+.wu-silicon-grid {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(242, 242, 242, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(242, 242, 242, 0.03) 1px, transparent 1px);
+}
+
+.wu-silicon-dot-grid {
+  background-size: 20px 20px;
+  background-image: radial-gradient(rgba(242, 242, 242, 0.05) 1.5px, transparent 1.5px);
+}
+
+/* Animations for pulsing cell dot */
+@keyframes wu-pulse-matrix {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.8;
+    filter: drop-shadow(0 0 4px rgba(242, 242, 242, 0.1));
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: 1;
+    filter: drop-shadow(0 0 12px rgba(242, 242, 242, 0.4));
+  }
+}
+
+.wu-pulse-dot {
+  animation: wu-pulse-matrix 3s ease-in-out infinite;
+}
+
+/* Elegant hand-drawn ink drip fall keyframe simulation for background elements */
+@keyframes wu-gravity-drip {
+  0% {
+    transform: translateY(-100%) scaleY(0.5);
+    opacity: 0;
+  }
+  15% {
+    opacity: 0.8;
+  }
+  85% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(100vh) scaleY(1.5);
+    opacity: 0;
+  }
+}
+
+.wu-gravity-flow-line {
+  animation: wu-gravity-drip 12s cubic-bezier(0.25, 1, 0.5, 1) infinite;
+}
