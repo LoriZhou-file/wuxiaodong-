@@ -101,7 +101,7 @@ export default function App() {
 
       {/* Mobile Menu Backdrop & Drawer */}
       {isMobileMenuOpen && (
-        <div className="fixed inset-0 top-[60px] bg-moonwhite/95 z-30 flex flex-col p-6 space-y-8 font-mono tracking-widest text-[#121210] lg:hidden select-none">
+        <div className="fixed inset-0 top-[60px] bg-moonwhite/95 z-30 flex flex-col p-6 space-y-8 font-mono tracking-widest text-[#F2F2F2] lg:hidden select-none">
           <button onClick={() => scrollToSection("philosophy-section")} className="text-left py-3 border-b border-stonegrey/10 text-sm">
             {lang === "zh" ? "① 视觉核心" : "① VISUAL PHILOSOPHY"}
           </button>
@@ -139,15 +139,24 @@ export default function App() {
               {lang === "zh" ? "第三条路线 // 碳基自然主义" : "THE THIRD ROUTE // CARBON-BASED NATURALISM"}
             </span>
             
-            <h2 className="font-display font-semibold text-3xl md:text-5xl lg:text-6xl text-[#121210] tracking-tight uppercase mb-6 leading-tight select-text">
-              WU XIAODONG:
-              <br className="md:hidden" />
-              <span className="md:mx-2 font-serif font-light italic text-stonegrey opacity-90 lowercase md:normal-case select-text">between</span>
-              <br className="hidden md:block" />
-              CARBON AND CODE
-            </h2>
+            {/* Massive bilingual title to make Wu Xiaodong's Chinese/English name highly eye-catching and clear */}
+            <div className="mb-6 flex flex-col items-center justify-center text-center">
+              <h1 className="font-display font-extrabold text-5xl md:text-7xl lg:text-8xl tracking-tight selection:bg-yellow-500 selection:text-black select-text leading-tight mb-2">
+                <span className="text-[#FFFFFF] font-semibold drop-shadow-[0_0_20px_rgba(255,255,255,0.2)] block md:inline tracking-wider">
+                  吴晓东
+                </span>
+                <span className="hidden md:inline text-stonegrey mx-4 font-light">/</span>
+                <span className="text-yellow-500 font-light text-3xl md:text-5xl lg:text-6xl tracking-widest block md:inline font-mono uppercase mt-2 md:mt-0">
+                  WU XIAODONG
+                </span>
+              </h1>
+              
+              <h2 className="font-serif font-light italic text-xl md:text-3xl text-stonegrey tracking-wider select-text mt-3">
+                {lang === "zh" ? "—— 介于碳基材质与算法代码之间 ——" : "— between Carbon and Code —"}
+              </h2>
+            </div>
 
-            <p className="font-serif italic text-base md:text-xl text-[#3A3A36] font-medium max-w-2xl mx-auto mb-10 leading-relaxed select-text">
+            <p className="font-serif italic text-base md:text-xl text-charcoal/90 font-medium max-w-3xl mx-auto mb-10 leading-relaxed select-text">
               {lang === "zh" 
                 ? "“手工材质的水墨痕迹（碳）对抗数字化芯片的计算（代码）。我用地球重力的自然流淌，在宣纸缝隙中寻找物质抵抗的共振。”"
                 : "“Handcrafted carbon traces resisting the sterile calculations of silicon chips. Drawing from gravity fields, I hunt for friction inside raw cellulose fibers.”"}
@@ -190,12 +199,12 @@ export default function App() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
             
             <div className="lg:col-span-5 relative group">
-              <div className="relative aspect-square bg-[#111111] border border-stonegrey/20 p-8 flex flex-col justify-between overflow-hidden shadow-md">
+              <div className="relative aspect-square bg-[#141414] border border-stonegrey/20 p-8 flex flex-col justify-between overflow-hidden shadow-xs">
                 
                 {/* Micro tech code styling to showcase Carbon vs Silicon */}
-                <div className="absolute inset-0 wu-silicon-grid opacity-15" />
+                <div className="absolute inset-0 wu-silicon-grid opacity-30" />
                 
-                <span className="font-mono text-[9px] text-stonegrey/50 tracking-widest uppercase block z-10">
+                <span className="font-mono text-[9px] text-stonegrey tracking-widest uppercase block z-10">
                   VISUAL METRICS // 秩序与物质的博弈
                 </span>
 
@@ -264,7 +273,7 @@ export default function App() {
 
 
         {/* WORKS GALLERY SECTION */}
-        <WorksSection onSelectArtwork={(art) => setSelectedArtwork(art)} />
+        <WorksSection lang={lang} onSelectArtwork={(art) => setSelectedArtwork(art)} />
 
 
         {/* ARTIST BIOGRAPHY - Museum Legitimacy & Studio Photos */}
@@ -323,12 +332,12 @@ export default function App() {
 
             {/* Right section: Beautiful structural visual mockup framed elegantly like galleries (5 cols) */}
             <div className="lg:col-span-5 relative group flex justify-center">
-              <div className="relative aspect-[3/4] w-full max-w-sm bg-neutral-900 p-4 border border-stonegrey/20 shadow-lg">
-                <div className="absolute inset-0 wu-silicon-dot-grid opacity-10" />
+              <div className="relative aspect-[3/4] w-full max-w-sm bg-silk p-4 border border-stonegrey/20 shadow-lg">
+                <div className="absolute inset-0 wu-silicon-dot-grid opacity-25" />
                 
                 {/* SVG portrait representation of a working contemporary visual scientist */}
-                <div className="relative w-full h-full bg-[#181818] border border-stonegrey/10 overflow-hidden flex flex-col justify-between p-6">
-                  <span className="font-mono text-[8.5px] text-stonegrey/40 uppercase tracking-widest block">
+                <div className="relative w-full h-full bg-[#141414] border border-stonegrey/10 overflow-hidden flex flex-col justify-between p-6">
+                  <span className="font-mono text-[8.5px] text-stonegrey uppercase tracking-widest block">
                     WU_STUDIO_MONITOR // 工作现场
                   </span>
 

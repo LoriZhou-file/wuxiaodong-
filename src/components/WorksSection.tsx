@@ -4,10 +4,11 @@ import { motion, AnimatePresence } from "motion/react";
 import { Calendar, Layers, Eye, MoveRight } from "lucide-react";
 
 interface WorksSectionProps {
+  lang: "zh" | "en";
   onSelectArtwork: (artwork: Artwork) => void;
 }
 
-export default function WorksSection({ onSelectArtwork }: WorksSectionProps) {
+export default function WorksSection({ lang, onSelectArtwork }: WorksSectionProps) {
   const [selectedCategory, setSelectedCategory] = useState<"all" | "dot" | "line" | "biomatrix">("all");
 
   const filteredArtworks = selectedCategory === "all" 
@@ -250,25 +251,48 @@ export default function WorksSection({ onSelectArtwork }: WorksSectionProps) {
               {/* Artwork Metadata */}
               <div className="flex justify-between items-start gap-3">
                 <div className="flex-1">
-                  <h3 className="font-display font-medium text-base text-charcoal tracking-tight group-hover:text-stonegrey transition-colors mb-1">
+                  <h3 className="font-display font-semibold text-base text-charcoal tracking-tight group-hover:text-amber-500 transition-colors mb-1">
                     {art.title}
                   </h3>
-                  <p className="font-sans italic text-xs text-stonegrey/60">
+                  <p className="font-sans italic text-xs text-stonegrey/80">
                     {art.titleEn}
                   </p>
                 </div>
                 <div className="flex flex-col items-end text-right font-mono text-[10px] text-stonegrey">
                   <div className="flex items-center space-x-1">
-                    <Calendar className="w-3 h-3 text-stonegrey/50" />
+                    <Calendar className="w-3 h-3 text-stonegrey/60" />
                     <span>{art.year}</span>
                   </div>
-                  <span className="text-stonegrey/50 text-[9px] mt-0.5">{art.mediumEn}</span>
+                  <span className="text-stonegrey/70 text-[9px] mt-0.5">{lang === "zh" ? art.medium : art.mediumEn}</span>
                 </div>
               </div>
 
+              {/* Dedicated reserved dimensions and medium description display panel */}
+              <div className="mt-3.5 pt-2 border-t border-stonegrey/15 grid grid-cols-2 gap-2 text-[10px] font-mono select-text">
+                <div className="flex flex-col">
+                  <span className="text-stonegrey/60 uppercase tracking-widest">{lang === "zh" ? "尺寸 DIMENSIONS" : "DIMENSIONS"}</span>
+                  <span className="text-charcoal font-sans font-medium mt-0.5">{art.dimensions}</span>
+                </div>
+                <div className="flex flex-col items-end text-right">
+                  <span className="text-stonegrey/60 uppercase tracking-widest">{lang === "zh" ? "分类 CATEGORY" : "CATEGORY"}</span>
+                  <span className="text-charcoal font-sans font-medium mt-0.5">
+                    {lang === "zh" 
+                      ? (art.category === "dot" ? "基因点阵" : art.category === "line" ? "重力线条" : "生物纸本基质")
+                      : art.category.toUpperCase()}
+                  </span>
+                </div>
+              </div>
+
+              {/* Pre-reserved clean curatorial description paragraph box */}
+              <div className="mt-3 bg-moonwhite/30 p-2.5 rounded-xs border border-stonegrey/10 select-text text-[11.5px] font-serif leading-relaxed text-stonegrey/90 text-justify">
+                <p className="line-clamp-3 group-hover:line-clamp-none transition-all duration-300">
+                  {lang === "zh" ? art.description : art.descriptionEn}
+                </p>
+              </div>
+
               {/* Quick teaser of the micro-scale logic */}
-              <div className="mt-4 pt-4 border-t border-stonegrey/10 flex items-center justify-between text-[10px] text-stonegrey/50 font-mono tracking-widest uppercase">
-                <span>VIEW MATERIALS BIOLOGY</span>
+              <div className="mt-3 pt-3 border-t border-stonegrey/10 flex items-center justify-between text-[10px] text-stonegrey/50 font-mono tracking-widest uppercase">
+                <span>{lang === "zh" ? "开启重力渗化实验" : "SIMULATE INK INFILTRATION"}</span>
                 <MoveRight className="w-3.5 h-3.5 transform group-hover:translate-x-1.5 transition-transform text-stonegrey/70" />
               </div>
             </motion.div>

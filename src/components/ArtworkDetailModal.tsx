@@ -68,7 +68,7 @@ export default function ArtworkDetailModal({ artwork, onClose }: ArtworkDetailMo
           spot.alpha = Math.max(0.1, spot.alpha - 0.002);
         }
 
-        // Draw outer diffused bloom representing the porous Xuan大分子
+        // Draw outer diffused bloom representing the porous Xuan System
         const gradient = ctx.createRadialGradient(
           spot.x, spot.y, spot.radius * 0.1,
           spot.x, spot.y, spot.radius
@@ -181,21 +181,21 @@ export default function ArtworkDetailModal({ artwork, onClose }: ArtworkDetailMo
         </button>
 
         {/* Left Section: Interactive Bleed Lab / Visual Abstraction (Aspect ratio square context) */}
-        <div className="flex-1 bg-silk border-r border-stonegrey/15 flex flex-col justify-between p-6">
+        <div className="flex-1 bg-silk border-r border-[#2C2C2A] flex flex-col justify-between p-6">
           <div>
             <div className="flex items-center space-x-2.5 mb-2">
               <ZoomIn className="w-5 h-5 text-stonegrey" />
-              <span className="font-mono text-[10px] tracking-widest text-[#F2F2F2]/90 uppercase">
+              <span className="font-mono text-[10px] tracking-widest text-charcoal uppercase font-bold">
                 MACRO BLEED SIMULATOR // 宣纸纤维渗化建模室
               </span>
             </div>
-            <p className="font-serif text-xs text-stonegrey/70 leading-relaxed max-w-sm mb-4">
-              Click within the porous canvas matrix to biological inject carbon ink pigment. Observe it saturate, diffuse, and follow gravity trails dynamically.
+            <p className="font-serif text-xs text-charcoal/80 leading-relaxed max-w-sm mb-4">
+              Click within the porous canvas matrix to biologically inject carbon ink pigment. Observe it saturate, diffuse, and follow gravity trails dynamically.
             </p>
           </div>
 
           {/* Interactive HTML5 Canvas Container */}
-          <div className="flex-1 flex items-center justify-center bg-[#0a0a0a] rounded-sm relative overflow-hidden aspect-square h-[300px] w-[300px] mx-auto border border-stonegrey/10 shadow-inner">
+          <div className="flex-1 flex items-center justify-center bg-[#181818] rounded-sm relative overflow-hidden aspect-square h-[300px] w-[300px] mx-auto border border-stonegrey/20 shadow-inner">
             <canvas
               ref={canvasRef}
               onClick={handleCanvasClick}

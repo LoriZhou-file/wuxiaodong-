@@ -94,7 +94,7 @@ export default function ArchiveSection() {
                   <span>{exh.location}</span>
                 </div>
 
-                <div className="inline-block px-2 py-0.5 bg-zinc-800 text-stonegrey text-[9px] font-mono tracking-wider rounded-xs mb-3">
+                <div className="inline-block px-2 py-0.5 bg-silk text-charcoal text-[9px] font-mono tracking-wider rounded-xs mb-3">
                   {exh.scope}
                 </div>
 
@@ -106,7 +106,7 @@ export default function ArchiveSection() {
           </div>
 
           {/* Academic validation card */}
-          <div className="mt-12 p-6 border border-stonegrey/15 bg-[#121210] text-moonwhite rounded-sm wu-silicon-dot-grid">
+          <div className="mt-12 p-6 border border-stonegrey/15 bg-charcoal text-moonwhite rounded-sm wu-silicon-dot-grid">
             <div className="flex items-center space-x-2.5 mb-4">
               <Award className="w-5 h-5 text-yellow-500" />
               <span className="font-display text-sm font-medium tracking-widest">
