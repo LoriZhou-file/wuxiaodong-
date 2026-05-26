@@ -5,7 +5,7 @@ import ArchiveSection from "./components/ArchiveSection";
 import ArtworkDetailModal from "./components/ArtworkDetailModal";
 import LabAssistant from "./components/LabAssistant";
 import { Artwork, studioImage } from "./data";
-import { Eye, BookOpen, Layers, Menu, X, Landmark, Globe, Check, CornerRightDown, ArrowUpRight } from "lucide-react";
+import { Eye, BookOpen, Layers, Menu, X, Landmark, Globe, Check, CornerDownRight, ArrowUpRight } from "lucide-react";
 
 export default function App() {
   const [lang, setLang] = useState<"zh" | "en">("zh");
@@ -169,7 +169,7 @@ export default function App() {
                 className="px-6 py-3 bg-charcoal text-moonwhite hover:bg-stonegrey border border-stonegrey/10 rounded-sm font-mono text-xs tracking-widest cursor-pointer shadow-md transition-all flex items-center space-x-2"
               >
                 <span>ENTER ARCHIVES // 進入作品展廳</span>
-                <CornerRightDown className="w-3.5 h-3.5 text-yellow-500" />
+                <CornerDownRight className="w-3.5 h-3.5 text-yellow-500" />
               </button>
               
               <button 
