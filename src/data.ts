@@ -14,6 +14,13 @@ export interface Artwork {
   imageUrl?: string;
 }
 
+export interface StudioImage {
+  id: string;
+  title: string;
+  titleEn: string;
+  imageUrl: string;
+}
+
 export const artworkCategories = [
   {
     key: "all" as const,
@@ -122,7 +129,7 @@ export const artworks: Artwork[] = [
     medium: "紙本綜合材料",
     mediumEn: "Mixed media on paper",
     dimensions: "230cm * 132cm",
-    description: "盤蒼古松凌空，橫陳於巨大的橘紅色日輪之上。大量的墨珠、水痕、白粉淋漓於松針之間，形成了富含微觀顆粒感、重力流淌的繁盛景象。",
+    description: "盤蒼古松凌空，橫陳於巨大的橘紅色日輪之上。大量的墨珠、水痕、白粉淋漓於松針之間，形成了富含微觀顆粒感、重力流淌的繁盛景觀。",
     descriptionEn: "A powerful primeval pine crosses a huge warm orange solar aura, capturing white splashes and black graphite droplets colliding on paper fibers.",
     visualType: "pine-shadow",
     colorPalette: ["#e67e22", "#196f3d", "#f7f9f9", "#111625"],
@@ -130,21 +137,28 @@ export const artworks: Artwork[] = [
   }
 ];
 
+export const studioImage: StudioImage = {
+  id: "studio-workspace",
+  title: "工作現場",
+  titleEn: "Studio Workspace",
+  imageUrl: "https://imagetourl.cloud/z2yzcxio.jpg"
+};
+
 export const academicArticles = [
   {
     title: "在碳與代碼之間：算法視覺時代的材料抵抗",
     titleEn: "Between Carbon and Code: Material Resistance in the Age of Algorithmic Vision",
     author: "Artforum Critic / 藝術論壇批評專欄",
-    excerpt: "在數字算法席卷視覺秩序的今天，吳曉東的工作通過逆向引入宣紙、礦物顏料與地球重力的物理阻力，建立了一種『第三條路線』——不屈服於代碼渲染的虛擬秩序，更不沿襲傳統筆墨範式的被動性。",
-    excerptEn: "In an era of generic silicon interfaces, Wu's practice reintroduces the visceral resistance of Xuan paper, dry pigments, and gravitational vectors, creating a 'Third Route' that challenges both digital sterility and traditional passivity.",
+    excerpt: "在數字算法席卷視覺秩序的今天，吳曉東的工作通過逆向引入宣紙、礦物顏料與地球重力的物理阻力，建立了一種『第三條路線』——不是純淨的傳統筆墨秩序，也不是冷漠的硅基計算，而是於兩者之間尋找有機的、有生命力的，能夠自我增殖與變化的藝術語言。",
+    excerptEn: "In an era of generic silicon interfaces, Wu's practice reintroduces the visceral resistance of Xuan paper, dry pigments, and gravitational vectors, creating a 'Third Route' that challenges both classical brush tradition and sterile code rendering.",
     date: "2025.11"
   },
   {
     title: "生命自然主義與重力場的墨法重組",
     titleEn: "Carbon-Based Naturalism and Reorganization of Ink in Gravitational Fields",
     author: "Museum Curator / 寶龍美術館學術前言",
-    excerpt: "吳曉東的斑點（Genetic Dots）與線條（Vertical Fluidity）擺脫了傳統文人畫的筆墨範式。它們是在紙張纖維（Bio-matrix）這一生物介質上生發出來的有機秩序——每一根線條都是9.81m/s²的物理記錄。",
-    excerptEn: "Wu's genetic spots and vertical rainfall drips shake off traditional literati landscape templates. They represent empirical bio-signatures of cellular evolution and geological friction embedded directly in cellulose.",
+    excerpt: "吳曉東的斑點（Genetic Dots）與線條（Vertical Fluidity）擺脫了傳統文人畫的筆墨範式。它們是在紙張纖維（Bio-matrix）這一生物介質上生發出的物理計算——不用矽基晶體，而用重力、毛細作用與顏料分子的化學親和力來完成對複雜計算的類比記錄。",
+    excerptEn: "Wu's genetic spots and vertical rainfall drips shake off traditional literati landscape templates. They represent empirical bio-signatures of cellular evolution and geological friction rendered in ink.",
     date: "2025.11"
   }
 ];
