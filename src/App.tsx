@@ -4,7 +4,7 @@ import WorksSection from "./components/WorksSection";
 import ArchiveSection from "./components/ArchiveSection";
 import ArtworkDetailModal from "./components/ArtworkDetailModal";
 import LabAssistant from "./components/LabAssistant";
-import { Artwork } from "./data";
+import { Artwork, studioImage } from "./data";
 import { Eye, BookOpen, Layers, Menu, X, Landmark, Globe, Check, CornerRightDown, ArrowUpRight } from "lucide-react";
 
 export default function App() {
@@ -245,13 +245,13 @@ export default function App() {
               <div className="space-y-4 font-serif text-charcoal/80 text-base leading-relaxed text-justify select-text">
                 <p>
                   {lang === "zh"
-                    ? "當代藝術家吳曉東的實驗聚焦於『第三條路線』。他的創作以極其冷峻的數字化秩序組織畫面的基礎網格體系，然而核心的顆粒呈現的卻是非線性的物理滲透——手工宣紙纖維上的有機擴散與墨色自由流淌。"
-                    : "Wu Xiaodong's radical framework concentrates on 'The Third Route'. While the composition is locked into precise technical grids embodying cybernetic layout, the actual marks capture the organic, non-linear flow of gravity and diffusion."}
+                    ? "當代藝術家吳曉東的實驗聚焦於『第三條路線』。他的創作以極其冷峻的數字化秩序組織畫面的基礎網格體系，然而核心的顆粒呈現形式卻完全遵循自然物理法則，由重力、毛細作用、紙纖維的吸水性能等控制，而不是矽基算法。"
+                    : "Wu Xiaodong's radical framework concentrates on 'The Third Route'. While the composition is locked into precise technical grids embodying cybernetic layout, the actual marks are governed entirely by natural physics—gravity, capillary action, fiber porosity—not algorithm."}
                 </p>
                 <p>
                   {lang === "zh"
-                    ? "他的繪畫不僅展現了植物（松、竹、荷）與山石在物理重力（Vertical Fluidity）干預下，顏料自然墜濺下瀉的過程，更是將像素點陣與細胞繁衍、矽芯片計算與地球物理力場相互融合，創造了一種獨特的『碳與代碼之對話』。"
-                    : "His painting operates as a natural computer registry. Spanning organic series of pines, bamboos, and boulders, pigments undergo vertical drainage representing precise fluid dynamics merged with algorithmic beauty."}
+                    ? "他的繪畫不僅展現了植物（松、竹、荷）與山石在物理重力（Vertical Fluidity）干預下，顏料自然墜濺下瀉的過程，更是將像素點陣與生物細胞的增殖邏輯融合，形成了新的視覺美學與材料實踐的對話。"
+                    : "His painting operates as a natural computer registry. Spanning organic series of pines, bamboos, and boulders, pigments undergo vertical drainage representing precise fluid dynamics, while genetic dot matrices echo cellular proliferation in real time."}
                 </p>
               </div>
 
@@ -298,12 +298,12 @@ export default function App() {
                 <p>
                   {lang === "zh"
                     ? "吳曉東，1968年生，當代藝術家，任教並進行學術探索於上海與陶瓷重鎮景德鎮。他在南京藝術學院、華東師範大學等核心院校積累了深厚的學術訓練與創新實踐。"
-                    : "Wu Xiaodong was born in 1968 and currently researches, teaches, and produces art in intense dialog between Shanghai and the porcelain capital of Jingdezhen. He refined his artistic sensibility at Nanjing University of the Arts and East China Normal University."}
+                    : "Wu Xiaodong was born in 1968 and currently researches, teaches, and produces art in intense dialog between Shanghai and the porcelain capital of Jingdezhen. He refined his artistic voice through rigorous study at Nanjing University of the Arts and East China Normal University."}
                 </p>
                 <p>
                   {lang === "zh"
-                    ? "作為徐悲鴻藝術學院（上海海事大學）等藝術學院的客座教授，他同時出任中國國際環境藝術委員會顧問、陶瓷藝術專業委員會顧問，在當代藝術與陶瓷創新領域擁有舉足輕重的地位。"
-                    : "He serves as an academic leader, holding visiting professorships at the Xu Beihong School of Art (Shanghai Maritime University) and the Jiangxi Ceramic & Craft Institute. His intellectual leadership shapes discourse in contemporary visual arts and ceramic innovation."}
+                    ? "作為徐悲鴻藝術學院（上海海事大學）等藝術學院的客座教授，他同時出任中國國際環境藝術委員會顧問、陶瓷藝術專業委員會顧問，是當代新水墨與陶瓷藝術實驗的領軍人物。"
+                    : "He serves as an academic leader, holding visiting professorships at the Xu Beihong School of Art (Shanghai Maritime University) and the Jiangxi Ceramic & Craft Institute. He is an advisor to China's International Environmental Art Committee and chairs the Ceramic Arts Professional Committee."}
                 </p>
               </div>
 
@@ -313,7 +313,7 @@ export default function App() {
                   <div>
                     <strong className="block mb-1 font-display tracking-wide">{lang === "zh" ? "教授與顧問經歷" : "Visiting Professorships"}</strong>
                     <span className="text-[11px] text-stonegrey/70 leading-relaxed block">
-                      {lang === "zh" ? "徐悲鴻藝術學院客座教授，江西陶瓷工藝美術職業技術學院客座教授。中國環境藝術委員會學術顧問。" : "Lecturer and advisor at leading art institutions including Xu Beihong School of Art."}
+                      {lang === "zh" ? "徐悲鴻藝術學院客座教授，江西陶瓷工藝美術職業技術學院客座教授。中國環境藝術委員會學術顧問。" : "Lecturer and advisor at multiple institutional platforms. Co-organizing interdisciplinary forums on material practice and critical theory."}
                     </span>
                   </div>
                 </div>
@@ -323,7 +323,7 @@ export default function App() {
                   <div>
                     <strong className="block mb-1 font-display tracking-wide">{lang === "zh" ? "材料綜合實驗室" : "Materials Laboratory"}</strong>
                     <span className="text-[11px] text-stonegrey/70 leading-relaxed block">
-                      {lang === "zh" ? "在景德鎮高溫窯變釉��、高分子宣紙纖維擴散中建模，創造非凡的『第三條合成路線』。" : "Developing specialized paint forms in Jingdezhen exploring ceramic glazes and paper diffusion."}
+                      {lang === "zh" ? "在景德鎮高溫窯變釉燒、高分子宣紙纖維擴散中建模，創造非凡的『第三條合成路線』。" : "Developing specialized paint formulations in Jingdezhen, investigating high-temperature kiln chemistry and xuan paper polymer diffusion systems."}
                     </span>
                   </div>
                 </div>
@@ -335,39 +335,22 @@ export default function App() {
               <div className="relative aspect-[3/4] w-full max-w-sm bg-silk p-4 border border-stonegrey/20 shadow-lg">
                 <div className="absolute inset-0 wu-silicon-dot-grid opacity-25" />
                 
-                {/* SVG portrait representation of a working contemporary visual scientist */}
+                {/* Studio Photo - Now using configurable image URL */}
                 <div className="relative w-full h-full bg-[#141414] border border-stonegrey/10 overflow-hidden flex flex-col justify-between p-6">
-                  <span className="font-mono text-[8.5px] text-stonegrey uppercase tracking-widest block">
+                  <span className="font-mono text-[8.5px] text-stonegrey uppercase tracking-widest block z-10">
                     WU_STUDIO_MONITOR // 工作現場
                   </span>
 
-                  <div className="flex-1 flex flex-col justify-center items-center py-6 text-center space-y-4">
-                    {/* Visual schematic of paint dripping gnarled branch */}
-                    <svg className="w-24 h-24 stroke-charcoal stroke-[1.2] fill-none" viewBox="0 0 100 100">
-                      <line x1="10" y1="10" x2="90" y2="10" strokeDasharray="3 3" />
-                      <line x1="50" y1="0" x2="50" y2="100" strokeDasharray="3 3" />
-                      
-                      {/* Gnarled tree */}
-                      <path d="M 50 100 Q 40 70 45 40 T 30 15" strokeLinecap="round" />
-                      <path d="M 45 55 Q 65 45 75 35" />
-                      
-                      {/* Heavy rainwater lines */}
-                      <line x1="30" y1="10" x2="30" y2="85" stroke="#cb6d31" strokeWidth="0.8" />
-                      <line x1="60" y1="15" x2="60" y2="90" stroke="#2ecc71" strokeWidth="0.8" />
-                      <line x1="75" y1="20" x2="75" y2="95" stroke="#9b59b6" strokeWidth="0.8" />
-                    </svg>
-
-                    <div className="space-y-1 select-text">
-                      <p className="font-display font-medium text-xs text-charcoal">
-                        STUDIO PORTRAIT SCHEMATIC // 創作中
-                      </p>
-                      <p className="font-serif italic text-[11px] text-stonegrey">
-                        *Shanghai & Jingdezhen (上海 / 景德鎮雙向往返材料實驗)
-                      </p>
-                    </div>
+                  <div className="flex-1 flex flex-col justify-center items-center py-6 text-center space-y-4 overflow-hidden">
+                    {/* Studio workspace photo */}
+                    <img 
+                      src={studioImage.imageUrl} 
+                      alt={studioImage.titleEn}
+                      className="w-full h-full object-cover rounded-sm shadow-md"
+                    />
                   </div>
 
-                  <div className="flex justify-between items-center text-[8.5px] font-mono text-stonegrey/50">
+                  <div className="flex justify-between items-center text-[8.5px] font-mono text-stonegrey/50 z-10">
                     <span>COORDINATE_9 // STABLE</span>
                     <span>GRAVITY FORCE // YES</span>
                   </div>
