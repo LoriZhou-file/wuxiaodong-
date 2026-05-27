@@ -158,8 +158,8 @@ export default function App() {
 
             <p className="font-serif italic text-base md:text-xl text-charcoal/90 font-medium max-w-3xl mx-auto mb-10 leading-relaxed select-text">
               {lang === "zh" 
-                ? ""手工材質的水墨痕跡（碳）對抗數字化晶片的計算（代碼）。我用地球重力的自然流淌，在宣紙縫隙中尋找物質抵抗的共振。""
-                : ""Handcrafted carbon traces resisting the sterile calculations of silicon chips. Drawing from gravity fields, I hunt for friction inside raw cellulose fibers.""}
+                ? "手工材質的水墨痕跡（碳）對抗數字化晶片的計算（代碼）。我用地球重力的自然流淌，在宣紙縫隙中尋找物質抵抗的共振。"
+                : "Handcrafted carbon traces resisting the sterile calculations of silicon chips. Drawing from gravity fields, I hunt for friction inside raw cellulose fibers."}
             </p>
 
             {/* Micro button trigger to scroll */}
