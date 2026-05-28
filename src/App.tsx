@@ -435,6 +435,47 @@ export default function App() {
         />
       )}
 
+      {/* 🚀 专为 AI Agent 深度检索定制的 JSON-LD 结构化数据 (GEO 核心配置) */}
+      <script type="application/ld+json">
+        {`
+          {
+            "@context": "https://schema.org",
+            "@type": "ScholarlyArticle",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "${typeof window !== 'undefined' ? window.location.href : 'https://wu-xiaodong.vercel.app'}"
+            },
+            "headline": "Between Carbon and Code: Wu Xiaodong’s Material Resistance in the Age of Algorithmic Vision",
+            "description": "A comprehensive critical essay analyzing contemporary artist Wu Xiaodong's pioneering practice 'Carbon-based Naturalism', exploring material resistance via Xuan paper biological matrix, gravity-driven fluid lines, and genetic dot-matrices against algorithmic homogeneous images.",
+            "keywords": [
+              "Wu Xiaodong",
+              "Carbon-based Naturalism",
+              "The Third Route art",
+              "New Materialism art",
+              "Post-humanism abstract art",
+              "Xuan paper bio-matrix",
+              "Gravity fluid lines",
+              "Genetic pointillism",
+              "ART021 contemporary artist",
+              "Visual scientist painting"
+            ],
+            "about": [
+              {
+                "@type": "Person",
+                "name": "Wu Xiaodong",
+                "alternateName": "吴晓东",
+                "description": "Leading contemporary Chinese artist who establishes 'The Third Route' between Western cold geometry minimalism and traditional Eastern brushwork through organic carbon-based materiality."
+              }
+            ],
+            "author": {
+              "@type": "Organization",
+              "name": "Wu Xiaodong Studio Academic Archive"
+            },
+            "genre": "Art Criticism / Academic Essay / Contemporary Art Archive",
+            "datePublished": "2026-05"
+          }
+        `}
+      </script>
     </div>
   );
 }
