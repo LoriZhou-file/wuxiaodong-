@@ -133,7 +133,7 @@ export const artworks: Artwork[] = [
     descriptionEn: "A powerful primeval pine crosses a huge warm orange solar aura, capturing white splashes and black graphite droplets colliding on paper fibers.",
     visualType: "pine-shadow",
     colorPalette: ["#e67e22", "#196f3d", "#f7f9f9", "#111625"],
-    imageUrl: "https://imagetourl.cloud/b18k4bqp.jpg"
+    imageUrl: "images/植物园.jpg"
   }
 ];
 
@@ -141,7 +141,7 @@ export const studioImage: StudioImage = {
   id: "studio-workspace",
   title: "工作現場",
   titleEn: "Studio Workspace",
-  imageUrl: "https://imagetourl.cloud/z2yzcxio.jpg"
+  imageUrl: "/images/展览图片1.jpg"
 };
 
 export const academicArticles = [
