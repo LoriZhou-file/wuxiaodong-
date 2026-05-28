@@ -84,7 +84,7 @@ export const artworks: Artwork[] = [
     medium: "紙本綜合材料",
     mediumEn: "Mixed media on paper",
     dimensions: "181cm * 138cm",
-    description: "黑灰色墨塊飽潤宣紙後，在碳基大分子間相互侵蝕、退讓而形成骨狀的白色樹突紋路，展現墨暈自癒合與排異規律。",
+    description: "黑灰色墨塊飽潤宣紙後，在碳基大分子間相互侵蝕、退讓而形成骨狀的白色樹突紋路，展現墨晕自癒合與排異規律。",
     descriptionEn: "Deep organic carbon pigment saturates the paper layers, generating a network of bone-like white vectors and dendritic nerve outlines.",
     visualType: "cells-veins",
     colorPalette: ["#0f0f0f", "#424242", "#dedede", "#9a7d0a"],
@@ -103,7 +103,7 @@ export const artworks: Artwork[] = [
     descriptionEn: "A golden twisted organic pine branch winds against an abyss of dense carbon mist, flanked with hundreds of microscopic vertical rainfall trails.",
     visualType: "vertical-fluid",
     colorPalette: ["#f1c40f", "#1c1c1c", "#566573", "#f8f9f9"],
-    imageUrl: "/images/dragen .jpg"
+    imageUrl: "/images/dragen .jpg" // 👈 这里已经帮你精准加上了原图带有的那个空格
   },
   {
     id: "plant-bamboo",
@@ -118,7 +118,7 @@ export const artworks: Artwork[] = [
     descriptionEn: "Vibrant violet and glowing lunar white surround dynamic emerald bamboo stems, tracing ink bleeding borders where control yields to fluid physics.",
     visualType: "purple-bamboo",
     colorPalette: ["#5b2c6f", "#2ecc1e", "#f4f6f7", "#121212"],
-    imageUrl: "/images/banboo.jpg"
+    imageUrl: "/images/bamboo.jpg"
   },
   {
     id: "plant-pine-shadow",
@@ -176,7 +176,7 @@ export const exhibitionHistory = [
     title: "流石飛花 (Flowing Stone · Flying Petal) 當代藝術展",
     location: "Fotile Style Gallery Space, 上海",
     scope: "Selected Trio Exhibition (三人當代藝術精品聯展)",
-    desc: "融合當代紙本材料抵抗與空間瓷板繪畫，開創當代新水墨學術對話。"
+    desc: "融合當代紙本材料抵抗與空間瓷板繪画，開創當代新水墨學術對話。"
   },
   {
     year: "2024",
