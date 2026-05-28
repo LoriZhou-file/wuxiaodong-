@@ -58,7 +58,7 @@ export const artworks: Artwork[] = [
     descriptionEn: "Genetic dot patterns multiply across raw Xuan paper fibers like cell structures, merging cybernetic matrix layouts with natural ink expansion.",
     visualType: "dots",
     colorPalette: ["#141414", "#d4ac0d", "#85929e", "#e5e7e9"],
-    imageUrl: "https://imagetourl.cloud/comaxpys.jpg"
+    imageUrl: "images/石系列5联福1.jpg"
   },
   {
     id: "stone-pentaptych-4",
@@ -73,7 +73,7 @@ export const artworks: Artwork[] = [
     descriptionEn: "Dripping vertical lines of yellow, green, violet and pure ink fall gracefully, documenting gravitational acceleration through raw paper fiber capillaries.",
     visualType: "vertical-fluid",
     colorPalette: ["#f4d03f", "#27ae60", "#8e44ad", "#141414"],
-    imageUrl: "https://imagetourl.cloud/a5m70nnl.jpg"
+    imageUrl: "images/石系列5联福4.jpg"
   },
   {
     id: "triptych-1",
@@ -88,7 +88,7 @@ export const artworks: Artwork[] = [
     descriptionEn: "Deep organic carbon pigment saturates the paper layers, generating a network of bone-like white vectors and dendritic nerve outlines.",
     visualType: "cells-veins",
     colorPalette: ["#0f0f0f", "#424242", "#dedede", "#9a7d0a"],
-    imageUrl: "https://imagetourl.cloud/boc3hicu.jpg"
+    imageUrl: "images/石系列3联福1.jpg"
   },
   {
     id: "plant-qi",
@@ -103,7 +103,7 @@ export const artworks: Artwork[] = [
     descriptionEn: "A golden twisted organic pine branch winds against an abyss of dense carbon mist, flanked with hundreds of microscopic vertical rainfall trails.",
     visualType: "vertical-fluid",
     colorPalette: ["#f1c40f", "#1c1c1c", "#566573", "#f8f9f9"],
-    imageUrl: "https://imagetourl.cloud/91kzee7v.jpg"
+    imageUrl: "images/‎植物系列-经纬之野·虬.jpg"
   },
   {
     id: "plant-bamboo",
@@ -118,7 +118,7 @@ export const artworks: Artwork[] = [
     descriptionEn: "Vibrant violet and glowing lunar white surround dynamic emerald bamboo stems, tracing ink bleeding borders where control yields to fluid physics.",
     visualType: "purple-bamboo",
     colorPalette: ["#5b2c6f", "#2ecc1e", "#f4f6f7", "#121212"],
-    imageUrl: "https://imagetourl.cloud/j5szxssn.jpg"
+    imageUrl: "images/竹.jpg"
   },
   {
     id: "plant-pine-shadow",
