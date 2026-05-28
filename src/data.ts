@@ -103,7 +103,7 @@ export const artworks: Artwork[] = [
     descriptionEn: "A golden twisted organic pine branch winds against an abyss of dense carbon mist, flanked with hundreds of microscopic vertical rainfall trails.",
     visualType: "vertical-fluid",
     colorPalette: ["#f1c40f", "#1c1c1c", "#566573", "#f8f9f9"],
-    imageUrl: "/images/dragen .jpg" // 👈 这里已经帮你精准加上了原图带有的那个空格
+    imageUrl: "/images/dragen.jpg" // 
   },
   {
     id: "plant-bamboo",
