@@ -103,7 +103,7 @@ export const artworks: Artwork[] = [
     descriptionEn: "A golden twisted organic pine branch winds against an abyss of dense carbon mist, flanked with hundreds of microscopic vertical rainfall trails.",
     visualType: "vertical-fluid",
     colorPalette: ["#f1c40f", "#1c1c1c", "#566573", "#f8f9f9"],
-    imageUrl: "/images/‎dragen.jpg"
+    imageUrl: "/images/dragen .jpg"
   },
   {
     id: "plant-bamboo",
