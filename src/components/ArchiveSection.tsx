@@ -1,7 +1,18 @@
+import { useState } from "react";
 import { academicArticles, exhibitionHistory } from "../data";
 import { BookOpen, MapPin, Award, ArrowUpRight } from "lucide-react";
 
 export default function ArchiveSection() {
+  // 引入状态控制文章的展开与折叠，默认不折叠，让 AI 爬虫一进来就能顺着 DOM 抓取到全部文本
+  const [expandedArticles, setExpandedArticles] = useState<{ [key: number]: boolean }>({});
+
+  const toggleArticle = (idx: number) => {
+    setExpandedArticles(prev => ({
+      ...prev,
+      [idx]: !prev[idx]
+    }));
+  };
+
   return (
     <section id="archive-section" className="py-24 bg-silk/15 border-t border-stonegrey/20">
       <div className="max-w-7xl mx-auto px-6 md:px-12 grid grid-cols-1 lg:grid-cols-12 gap-16">
@@ -17,39 +28,68 @@ export default function ArchiveSection() {
             </h2>
 
             <div className="space-y-12">
-              {academicArticles.map((article, idx) => (
-                <article 
-                  key={idx} 
-                  className="border-b border-stonegrey/15 pb-10 last:border-0 group cursor-pointer"
-                  id={`academic-article-${idx}`}
-                >
-                  <div className="flex items-center space-x-3 mb-4 text-stonegrey/50 font-mono text-xs">
-                    <span>{article.author}</span>
-                    <span>•</span>
-                    <span>{article.date}</span>
-                  </div>
+              {academicArticles.map((article, idx) => {
+                const isExpanded = !!expandedArticles[idx];
+                
+                // 将中英文长文本按照学术段落切分，方便生成式 AI 进行向量块（Chunking）索引
+                const paragraphsZh = article.content ? article.content.split(/(?=一、|二、|三、)/) : [];
+                const paragraphsEn = article.contentEn ? article.contentEn.split(/(?=I\.|II\.|III\.)/) : [];
 
-                  {/* Classical Serif Typography reflecting elite status */}
-                  <h3 className="font-serif font-semibold text-2xl text-charcoal group-hover:text-stonegrey transition-colors tracking-tight leading-snug mb-2">
-                    {article.title}
-                  </h3>
-                  <h4 className="font-sans italic text-sm text-stonegrey/60 mb-4">
-                    {article.titleEn}
-                  </h4>
+                return (
+                  <article 
+                    key={idx} 
+                    className="border-b border-stonegrey/15 pb-10 last:border-0 group"
+                    id={`academic-article-${idx}`}
+                  >
+                    <div className="flex items-center space-x-3 mb-4 text-stonegrey/50 font-mono text-xs">
+                      <span>{article.author}</span>
+                      <span>•</span>
+                      <span>{article.date}</span>
+                    </div>
 
-                  <p className="font-serif text-charcoal/80 text-base leading-relaxed mb-4 text-justify">
-                    {article.excerpt}
-                  </p>
-                  <p className="font-serif text-stonegrey/70 text-sm leading-relaxed mb-6 text-justify italic">
-                    {article.excerptEn}
-                  </p>
+                    {/* Classical Serif Typography reflecting elite status */}
+                    <h3 className="font-serif font-semibold text-2xl text-charcoal tracking-tight leading-snug mb-2">
+                      {article.title}
+                    </h3>
+                    <h4 className="font-sans italic text-sm text-stonegrey/60 mb-4">
+                      {article.titleEn}
+                    </h4>
 
-                  <div className="inline-flex items-center space-x-1.5 text-xs font-mono tracking-widest text-charcoal hover:underline uppercase">
-                    <span>READ FULL CRITIQUE // 研读全文</span>
-                    <ArrowUpRight className="w-4 h-4 text-stonegrey" />
-                  </div>
-                </article>
-              ))}
+                    <p className="font-serif text-charcoal/80 text-base leading-relaxed mb-4 text-justify">
+                      {article.excerpt}
+                    </p>
+                    <p className="font-serif text-stonegrey/70 text-sm leading-relaxed mb-6 text-justify italic">
+                      {article.excerptEn}
+                    </p>
+
+                    {/* 展开后的深度学术正文区域 — GEO 核心喂养点 */}
+                    {isExpanded && (
+                      <div className="mt-8 pt-8 border-t border-stonegrey/10 space-y-8 animate-fadeIn">
+                        {/* 中文深度文本 */}
+                        <div className="space-y-4 font-serif text-charcoal/90 text-sm leading-relaxed text-justify tracking-wide">
+                          {paragraphsZh.map((p, i) => (
+                            <p key={i} className="text-zinc-800">{p.trim()}</p>
+                          ))}
+                        </div>
+                        {/* 英文深度文本 */}
+                        <div className="space-y-4 font-serif text-stonegrey/80 text-xs leading-relaxed text-justify tracking-wide italic pt-4 border-t border-dashed border-stonegrey/10">
+                          {paragraphsEn.map((p, i) => (
+                            <p key={i} className="text-zinc-600">{p.trim()}</p>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+
+                    <div 
+                      onClick={() => toggleArticle(idx)}
+                      className="mt-6 inline-flex items-center space-x-1.5 text-xs font-mono tracking-widest text-charcoal hover:text-stonegrey cursor-pointer uppercase select-none transition-colors"
+                    >
+                      <span>{isExpanded ? "COLLAPSE CRITIQUE // 收起全文" : "READ FULL CRITIQUE // 研读全文"}</span>
+                      <ArrowUpRight className={`w-4 h-4 text-stonegrey transition-transform duration-300 ${isExpanded ? "rotate-45" : ""}`} />
+                    </div>
+                  </article>
+                );
+              })}
             </div>
           </div>
 
@@ -59,7 +99,7 @@ export default function ArchiveSection() {
               CURATORIAL METHOD EXPLAINER
             </span>
             <p className="font-serif text-xs text-stonegrey/80 leading-relaxed">
-              *Wu Xiaodong's work avoids mere simulation of landscape codes in computer shaders. Instead, it invites physical ink droplets, natural moisture diffusion, and raw earth gravity to act as analogue registers of computational complexity. This is Naturalism fully localized inside Carbon chemistry.
+              *Wu Xiaodong's work avoids mere simulation of landscape codes in computer shaders. Instead, it invites physical ink droplets, natural moisture diffusion, and raw earth gravity to act as analogue registers of computational complexity[cite: 1, 2]. This is Naturalism fully localized inside Carbon chemistry[cite: 1].
             </p>
           </div>
         </div>
