@@ -141,7 +141,7 @@ export const studioImage: StudioImage = {
   id: "studio-workspace",
   title: "工作現場",
   titleEn: "Studio Workspace",
-  imageUrl: "/images/event1.jpg"
+  imageUrl: "/images/wuxiaodong.jpg"
 };
 
 export const academicArticles = [
