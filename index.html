@@ -3,11 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Google AI Studio App</title>
+    <title>Wu Xiaodong | Official Artist Website</title>
   </head>
   <body>
     <div id="root"></div>
+
+    <!-- 您原有的 React 入口 -->
     <script type="module" src="/src/main.tsx"></script>
+
+    <!-- ==================== Dify 聊天气泡 ==================== -->
+    <script>
+      window.difyChatbotConfig = {
+        token: 'app-xBPKHzZwuq3s6MXguPpO8McU',
+        baseUrl: 'https://www.artist-wuxiaodong.com'
+      }
+    </script>
+    <script
+      src="https://www.artist-wuxiaodong.com/embed.min.js"
+      id="d3c634d4cbb6497f89d0e89b0dc1a027"
+      defer>
+    </script>
+    <!-- ====================================================== -->
   </body>
 </html>
-
