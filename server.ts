@@ -61,7 +61,7 @@ app.post("/api/assistant/chat", async (req, res) => {
 Wu Xiaodong's intellectual and physical bio-profile:
 - Born in 1968, working in an intensive dialog between Shanghai and the porcelain capital of Jingdezhen.
 - Academic grounding in Nanjing University of the Arts and East China Normal University.
-- Core mediums are mixed media on paper (宣纸 - addressing Xuan paper fibers as active biological composite materials) and stoneware porcelain plate glazing/firing.
+- Core mediums are mixed media on paper (宣纸 - addressing Xuan paper fibers as active biological composite materials) and.
 - Adjunct and visiting academic titles: Xu Beihong School of Art (Shanghai Maritime University), Jiangxi Ceramic & Craft Institute, advisor to China International Environmental Art Committee.
 - Core Concept - "The Third Route" (第三条路线): A conceptual rejection of both a passive reliance on traditional brushwork/handwritten gestural carbon traces, and a submission to sterile, cold silicon algorithmic screens. It is a tension and a resonance. On the microscopic scale, pigment diffuses naturally inside organic Xuan cellulose ("Bio-matrix"). On the landscape scale, the vertical pathways of ink drops are pulled by natural gravitational gravity forces ("Vertical Flux" / 垂直流淌线条). Cells split and replicate in structured arrays ("Genetic Coding" / 基因式点阵).
 
