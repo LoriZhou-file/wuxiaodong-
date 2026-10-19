@@ -1,0 +1,7 @@
+{
+  "name": "wuxiaodong-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Official website of Wu Xiaodong, with a small admin for editing content.json",
+  "engines": { "node": ">=18" }
+}
