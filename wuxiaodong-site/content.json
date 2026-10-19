@@ -32,38 +32,7 @@
       "en": "Wu Xiaodong was born in 1968 and lives and works in Shanghai. He studied at Nanjing University of the Arts and East China Normal University, and is guest professor at the Xu Beihong Art Academy and Shanghai Maritime University, and advisor to the China International Environmental Art Committee. He is the founder of Carbon-Based Naturalism. Working on Xuan paper with mineral pigment, he lets water carry colour under gravity and treats it as a co-author of the painting.",
       "zh": "吴晓东,1968年生,现工作生活于上海。先后就读于南京艺术学院与华东师范大学,现任徐悲鸿艺术学院、上海海事大学客座教授,中国国际环境艺术委员会顾问。他是「碳基自然主义」的创立者。他以宣纸与矿物颜料作画,让水在重力下带着颜色流动,并把水视为画作的共同作者。"
     },
-    "theory": [
-      {
-        "title": {
-          "en": "Carbon-Based Naturalism",
-          "zh": "碳基自然主义"
-        },
-        "text": {
-          "en": "Living things and water are made of the same cycle. Every living form is, in the end, a pattern that water has temporarily agreed to hold. Pigment seeping through the porous fibre of Xuan paper is treated as an organic process, slow, irreversible, and not fully reproducible by an algorithm.",
-          "zh": "生命与水出自同一个循环。每一种生命形态,说到底,都是水暂时答应保持的一种图案。矿物颜料在宣纸多孔纤维中的渗透,被视为一种有机过程:缓慢、不可逆,也无法被算法完全复现。"
-        }
-      },
-      {
-        "title": {
-          "en": "The Third Route",
-          "zh": "第三条路线"
-        },
-        "text": {
-          "en": "Neither the passive repetition of ink-brush habit, nor the frictionless production of algorithmic images. The third route lives in the tension between living matter and physical law: gravity, entropy, capillary seepage.",
-          "zh": "既不是笔墨惯性的被动重复,也不是算法图像的无摩擦生产。第三条路线存在于生命物质与物理法则之间的张力:重力、熵、毛细渗透。"
-        }
-      },
-      {
-        "title": {
-          "en": "Point, line, plane",
-          "zh": "点·线·面"
-        },
-        "text": {
-          "en": "Points are genetic matrices; lines are the vertical flux of falling water; planes are the bio-matrix of the paper itself.",
-          "zh": "点是基因式点阵;线是垂落之水的垂直流淌;面是纸张自身的生物基质。"
-        }
-      }
-    ]
+    "theory": []
   },
   "video": {
     "src": "media/water-the-other-author.mp4",
@@ -497,5 +466,209 @@
       "link": "https://www.taoart.com/information/detail/54771.htm"
     }
   ],
-  "news": []
+  "news": [],
+  "concept": {
+    "title": {
+      "en": "Concept",
+      "zh": "理念"
+    },
+    "intro": {
+      "en": "Working on Xuan paper, Wu Xiaodong lets mineral pigment seep and settle, lets water fall in vertical lines, and lets dots grow into living matrices. In an age when algorithmic visual culture is rapidly homogenising, he holds a painterly position founded on the material time of carbon-based life.",
+      "zh": "吴晓东以宣纸为核心媒介,通过矿物颜料的渗透沉积、重力流淌线条与生命点阵结构,在算法视觉文化急速同质化的当代语境中,确立起一种以碳基生命物质时间为基础的绘画哲学立场。"
+    },
+    "sections": [
+      {
+        "title": {
+          "en": "Core ideas",
+          "zh": "核心理念"
+        },
+        "lead": {
+          "en": "",
+          "zh": ""
+        },
+        "items": [
+          {
+            "title": {
+              "en": "Carbon-Based Naturalism",
+              "zh": "碳基自然主义"
+            },
+            "text": {
+              "en": "Centred on the porous bio-matrix of Xuan paper fibre, it treats the seepage, sedimentation and diffusion of mineral pigment as an organic, metabolic process rather than a controlled brushstroke. It is a visualisation of the logic of carbon-based matter: slow, irreversible, and not fully reproducible by an algorithm.",
+              "zh": "以宣纸纤维的多孔生物基质(Bio-matrix)为核心,将矿物颜料的渗透、沉积与扩散视为一种有机的“生物代谢”过程,而非可控的人工笔触。这是对碳基生命物质逻辑的视觉化:缓慢、不可逆、不可被算法完全复现。"
+            }
+          },
+          {
+            "title": {
+              "en": "The Third Route",
+              "zh": "第三条路线"
+            },
+            "text": {
+              "en": "It refuses the passive repetition of inherited brushwork habit (the first route), and it refuses the frictionless production of silicon-based algorithmic images (the second). The third route is the tension and resonance between carbon-based life and physical law: gravity, entropy, capillary seepage. Together these natural processes make up a “biological noise” that cannot be digitised.",
+              "zh": "既拒绝传统笔墨惯性的被动重复(第一条路线),也拒绝硅基算法图像的无摩擦生产(第二条路线)。第三条路线是碳基生命与物理法则之间的张力与共鸣:重力、熵、毛细渗透。这些自然过程共同构成了无法被数字化的“生命噪声”(Biological Noise)。"
+            }
+          },
+          {
+            "title": {
+              "en": "Yi Pai Spirit",
+              "zh": "意派精神"
+            },
+            "text": {
+              "en": "Beyond the opposition of representation and expression, it returns to the artist's intuitive arising of “yi” (intention). The picture does not imitate an image; it presents a state of life directly, letting intention emerge in the biological time of the paper through the natural behaviour of the material.",
+              "zh": "超越“再现”与“表现”的二元对立,回归艺术家对“意”的直觉生发。吴晓东的画面并非图像的模仿,而是对生命状态的直接呈现:通过物质媒介的自然行为,让“意”在宣纸的生物时间中自然涌现。"
+            }
+          },
+          {
+            "title": {
+              "en": "New Nebulism",
+              "zh": "新朦胧主义"
+            },
+            "text": {
+              "en": "Deliberate blurring of edges is not technical vagueness but fidelity to life: there is no absolute border between cells, no clean division between ecosystems. Against the over-definition and informational violence of digital images, material blur protects the complexity of living things.",
+              "zh": "边界的刻意模糊不是技法的含混,而是对生命状态的忠实描摹:细胞之间没有绝对边界,生态系统之间没有清晰分割。吴晓东的画面以朦胧对抗数字图像的过度清晰与信息暴力,以物质的模糊性守护生命的复杂性。"
+            }
+          },
+          {
+            "title": {
+              "en": "Carbon Time",
+              "zh": "碳基时间"
+            },
+            "text": {
+              "en": "Every layer of pigment on the paper is a physical inscription of time: the geological diffusion of mineral colour through fibre, the irreversible tracks of falling water. This gives the work a carbon-based temporality that algorithms cannot simulate: slow, weighted, and not to be accelerated.",
+              "zh": "宣纸上的每一层颜料沉积,都是时间的物理铭刻。矿物颜料在纤维中的地质性扩散、重力流淌的不可逆行迹,赋予作品一种算法永远无法模拟的“碳基时间性”:缓慢的、有重量的、不可被加速的生命时间。"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Point · Line · Plane",
+          "zh": "点·线·面"
+        },
+        "lead": {
+          "en": "Wu Xiaodong recasts the basic vocabulary of painting, point, line and plane, as visual counterparts of the life sciences. Together they form a complete sign system of carbon-based life.",
+          "zh": "吴晓东将传统绘画的基本语汇“点、线、面”重构为生命科学的视觉对应物,三者共同构成一套完整的碳基生命符号系统。"
+        },
+        "items": [
+          {
+            "title": {
+              "en": "Point: Genetic Coding",
+              "zh": "点:基因式点阵"
+            },
+            "text": {
+              "en": "Mineral ink dots seep into form within the bio-matrix of Xuan paper and gather into dense, cell-like colonies. It is a visualisation of genetic code, not cold geometry but organic density.",
+              "zh": "矿物墨点在宣纸生物基质中自然渗透成形,形成密集的细胞化群落。这是生命遗传编码的视觉化,不是冷峻几何,而是有机密度。"
+            }
+          },
+          {
+            "title": {
+              "en": "Line: Vertical Flux",
+              "zh": "线:垂直流淌线条"
+            },
+            "text": {
+              "en": "The artist releases pigment from the upper edge of the paper and lets gravity lead it downward. This is an active surrender of authorship to natural law, and a philosophical answer to entropy and the dissipation of energy.",
+              "zh": "艺术家将颜料自纸张上沿释放,任由重力引导下行。这是创作主权向自然物理法则的主动让渡,是对熵与能量耗散的哲学回应。"
+            }
+          },
+          {
+            "title": {
+              "en": "Plane: Bio-matrix",
+              "zh": "面:生物基质平面"
+            },
+            "text": {
+              "en": "Xuan paper fibre is itself a living carrier. Its porosity and resistance to absorption decide the path and deposit of the pigment: the inscription of carbon-based life's “geological time” on a flat surface.",
+              "zh": "宣纸纤维本身即是活的生物载体。其多孔性与吸附阻力决定了颜料的渗透路径与沉积方式,是碳基生命的“地质时间”在平面上的物质铭刻。"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Dialogues",
+          "zh": "对话与坐标"
+        },
+        "lead": {
+          "en": "",
+          "zh": ""
+        },
+        "items": [
+          {
+            "title": {
+              "en": "New Materialism and Post-humanism",
+              "zh": "新物质主义与后人类主义"
+            },
+            "text": {
+              "en": "The practice can be read in conversation with new materialism and post-humanist thought, as an Eastern answer to the question of material agency.",
+              "zh": "这一实践可与新物质主义、后人类主义的讨论对话,是对“物质能动性”(material agency)问题的一种东方回应。"
+            }
+          },
+          {
+            "title": {
+              "en": "Mono-ha",
+              "zh": "物派精神共鸣"
+            },
+            "text": {
+              "en": "It shares with Mono-ha, and with Lee Ufan, an attention to gravity, entropy and the force of matter itself. Wu Xiaodong goes on from the cool inorganic stance of Mono-ha to the organic fibre of Xuan paper, bringing in the warmth and temporality of carbon-based life.",
+              "zh": "与韩国物派及李禹焕在重力、熵与物质本身的力量上有精神共鸣。吴晓东以宣纸纤维的有机生物性,从物派的冷峻无机走向碳基生命的温度与时间性。"
+            }
+          },
+          {
+            "title": {
+              "en": "Beyond Minimalism",
+              "zh": "极简主义之外"
+            },
+            "text": {
+              "en": "The dot matrix echoes in appearance the grids of Agnes Martin or Sol LeWitt, but the core differs: mathematical reason gives way to the organic density of carbon-based life, a visualisation of biological genetic code rather than a cold geometric exercise.",
+              "zh": "点阵结构在外观上与 Agnes Martin、Sol LeWitt 的网格形成呼应,但内核不同:西方极简的数学理性被碳基生命的有机密度所取代,这是生物遗传密码的视觉化,而非冰冷的几何练习。"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Principal series",
+          "zh": "主要创作系列"
+        },
+        "lead": {
+          "en": "",
+          "zh": ""
+        },
+        "items": [
+          {
+            "title": {
+              "en": "Stone Series, 2022–2025",
+              "zh": "石系列 2022—2025"
+            },
+            "text": {
+              "en": "Pentaptychs and triptychs. The traditional literati scholar's rock (Taihu stone) is deconstructed into a pulsing matrix of living forms; geological silence is woken by the surge of carbon-based life.",
+              "zh": "五联幅、三联幅。将传统文人石图式(太湖石)解构为脉动的生物形态矩阵,地质的沉默被碳基生命的涌动所激活。"
+            }
+          },
+          {
+            "title": {
+              "en": "Plant Series, 2021–2025 (ongoing)",
+              "zh": "植物系列 2021—2025 持续创作中"
+            },
+            "text": {
+              "en": "Studies of tropical plants, pine and vine, with falling water and growing dots as visual grammar, exploring how plants as living bodies grow, diffuse and dissolve in time.",
+              "zh": "通过对热带植物、松树、藤蔓等碳基生命形态的研究,以重力流淌与点阵生长为视觉语法,探索植物作为生命体在时间中生长、扩散与消解的过程。"
+            }
+          },
+          {
+            "title": {
+              "en": "Landscape Series, 2020–2021",
+              "zh": "风景系列 2020—2021"
+            },
+            "text": {
+              "en": "Raw ink atmosphere, galloping horses, evening glow and vertical liquid rain: natural scenery given its carbon-based temporality through purely physical processes, the fall of ink and the absorption of fibre.",
+              "zh": "以原始墨色大气、奔马、晚霞与垂直流淌的液态雨为视觉核心,通过纯粹的物理过程,即墨的下落与纤维的吸收,呈现自然景观的碳基时间性。"
+            }
+          }
+        ]
+      }
+    ],
+    "closing": {
+      "en": "In the age of algorithms, Wu Xiaodong's hand-made practice is no longer simply a matter of technique. It is a philosophical position: an insistence on slowness, unpredictability, and the irreducible friction of carbon-based time.",
+      "zh": "在算法时代,吴晓东的手工性不再仅仅是技艺,而成为一种关于生命存在的哲学立场。它意味着缓慢、不可预测,以及人与物质之间仍然保留的、那份尚未被算法完全同质化的碳基时间。"
+    }
+  }
 }

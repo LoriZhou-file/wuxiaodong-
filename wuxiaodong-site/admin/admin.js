@@ -115,7 +115,7 @@
   }
 
   /* ---------- tabs ---------- */
-  var TABS = [['exhibitions', '展览'], ['works', '作品'], ['news', '动态'], ['about', '关于'], ['video', '影像'], ['site', '基本信息']];
+  var TABS = [['exhibitions', '展览'], ['works', '作品'], ['concept', '理念'], ['news', '动态'], ['about', '关于'], ['video', '影像'], ['site', '基本信息']];
 
   function viewExhibitions() {
     return list(content.exhibitions, {
@@ -168,6 +168,30 @@
       })
     ]);
   }
+  function viewConcept() {
+    var c = content.concept; if (!c) c = content.concept = { title: { en: 'Concept', zh: '理念' }, intro: { en: '', zh: '' }, sections: [], closing: { en: '', zh: '' } };
+    if (!c.sections) c.sections = [];
+    return h('div', { class: 'panel' }, [
+      h('p', { class: 'hint', text: '网站“理念”栏目。分成若干小节,每节下有若干条目。全部清空则该栏目自动隐藏。' }),
+      bi(c, 'intro', '栏目导语', true),
+      h('h2', { text: '小节(↑↓ 可调整顺序)' }),
+      list(c.sections, {
+        blank: function () { return { title: { en: '', zh: '' }, lead: { en: '', zh: '' }, items: [] }; },
+        title: function (x) { return (x.title && (x.title.zh || x.title.en)) || '(未命名小节)'; },
+        sub: function (x) { return (x.items || []).length + ' 条'; },
+        fields: function (x) {
+          if (!x.items) x.items = [];
+          return [bi(x, 'title', '小节标题'), bi(x, 'lead', '小节说明(可留空)', true), h('h2', { text: '本节条目' }),
+            list(x.items, {
+              blank: function () { return { title: { en: '', zh: '' }, text: { en: '', zh: '' } }; },
+              title: function (y) { return (y.title && (y.title.zh || y.title.en)) || '(未命名条目)'; },
+              fields: function (y) { return [bi(y, 'title', '条目标题'), bi(y, 'text', '条目内容', true)]; }
+            })];
+        }
+      }),
+      h('h2', { text: '栏目结语' }), bi(c, 'closing', '结语(可留空)', true)
+    ]);
+  }
   function viewVideo() {
     var v = content.video;
     return h('div', { class: 'panel' }, [
@@ -184,7 +208,7 @@
       h('h2', { text: '首页大图' }), image(s.hero, 'image', '图片'), bi(s.hero, 'title', '作品名'), bi(s.hero, 'caption', '说明')
     ]);
   }
-  var VIEWS = { exhibitions: viewExhibitions, works: viewWorks, news: viewNews, about: viewAbout, video: viewVideo, site: viewSite };
+  var VIEWS = { exhibitions: viewExhibitions, works: viewWorks, concept: viewConcept, news: viewNews, about: viewAbout, video: viewVideo, site: viewSite };
 
   function save() {
     var b = document.getElementById('save'); b.disabled = true; setStatus('正在保存…');

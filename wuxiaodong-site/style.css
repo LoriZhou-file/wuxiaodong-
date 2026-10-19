@@ -35,7 +35,7 @@ a{color:inherit}
 h2{margin:0 auto 36px;font-family:var(--serif);font-weight:400;font-size:clamp(26px,3.2vw,38px);letter-spacing:.02em}
 h3{margin:34px auto 12px;font-size:13px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--green)}
 
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:28px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:28px}
 .card{background:none;border:0;padding:0;text-align:left;cursor:pointer;font:inherit;color:inherit}
 .card .ph{aspect-ratio:4/3;background:var(--bg2);overflow:hidden}
 .card img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
@@ -92,3 +92,13 @@ h3{margin:34px auto 12px;font-size:13px;font-weight:600;letter-spacing:.14em;tex
   .lb-nav{top:auto;bottom:10px}
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.card img{transition:none}}
+
+.concept-intro{max-width:820px}
+.c-sec{margin-top:clamp(36px,5vw,56px)}
+.c-sec h3{margin:0 0 6px;font-family:var(--serif);font-weight:400;font-size:clamp(22px,2.6vw,28px);letter-spacing:.02em}
+.c-lead{margin:0 0 14px;max-width:820px;color:#2f3833;font-size:15px}
+.c-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin-top:16px}
+.c-card{background:#fff;border:1px solid var(--line,#d9d6cc);padding:20px 22px}
+.c-card h4{margin:0 0 8px;font-family:var(--serif);font-weight:400;font-size:19px;color:var(--green)}
+.c-card p{margin:0;color:#2f3833;font-size:14.5px;line-height:1.75}
+.concept-closing{margin:clamp(40px,6vw,64px) auto 0;max-width:820px;padding-left:20px;border-left:2px solid var(--green);font-family:var(--serif);font-size:clamp(17px,1.9vw,21px);line-height:1.8;color:var(--ink)}

@@ -1,10 +1,10 @@
 (function () {
   'use strict';
   var UI = {
-    en: { works: 'Works', exhibitions: 'Exhibitions', video: 'Film', about: 'About', news: 'News', contact: 'Contact',
+    en: { works: 'Works', concept: 'Concept', exhibitions: 'Exhibitions', video: 'Film', about: 'About', news: 'News', contact: 'Contact',
       upcoming: 'Upcoming', past: 'Past', solo: 'Solo', group: 'Group', fair: 'Fair', close: 'Close',
       writeTo: 'Email', follow: 'Follow on Instagram', rights: 'All rights reserved.' },
-    zh: { works: '作品', exhibitions: '展览', video: '影像', about: '关于', news: '动态', contact: '联系',
+    zh: { works: '作品', concept: '理念', exhibitions: '展览', video: '影像', about: '关于', news: '动态', contact: '联系',
       upcoming: '即将展出', past: '往期展览', solo: '个展', group: '联展', fair: '艺博会', close: '关闭',
       writeTo: '邮箱', follow: '在 Instagram 关注', rights: '版权所有。' }
   };
@@ -108,6 +108,29 @@
     $('vid-cap').textContent = [tr(v.title), tr(v.caption)].filter(Boolean).join(' — ');
   }
 
+  function renderConcept() {
+    var c = data.concept || {}, sec = $('concept');
+    var has = (c.sections && c.sections.length) || tr(c.intro);
+    sec.hidden = !has; var nv = document.querySelector('a[href="#concept"]'); if (nv) nv.hidden = !has;
+    if (!has) return;
+    $('concept-intro').textContent = tr(c.intro);
+    var B = $('concept-body'); B.textContent = '';
+    (c.sections || []).forEach(function (s) {
+      var wrap = el('div', 'c-sec');
+      wrap.appendChild(el('h3', null, tr(s.title)));
+      if (tr(s.lead)) wrap.appendChild(el('p', 'c-lead', tr(s.lead)));
+      var g = el('div', 'c-grid');
+      (s.items || []).forEach(function (it) {
+        var card = el('div', 'c-card');
+        card.appendChild(el('h4', null, tr(it.title)));
+        card.appendChild(el('p', null, tr(it.text)));
+        g.appendChild(card);
+      });
+      wrap.appendChild(g); B.appendChild(wrap);
+    });
+    var cl = $('concept-closing'); cl.textContent = tr(c.closing); cl.hidden = !tr(c.closing);
+  }
+
   function renderAbout() {
     var a = data.about || {};
     var im = $('about-img'); if (a.portrait) { im.src = safeUrl(a.portrait); im.alt = tr(data.site.name); } else im.hidden = true;
@@ -152,7 +175,7 @@
   }
   function closeLb() { $('lb').hidden = true; document.body.style.overflow = ''; }
 
-  function renderAll() { renderStatic(); renderHero(); renderWorks(); renderExhibitions(); renderVideo(); renderAbout(); renderNews(); renderContact(); }
+  function renderAll() { renderStatic(); renderHero(); renderWorks(); renderConcept(); renderExhibitions(); renderVideo(); renderAbout(); renderNews(); renderContact(); }
 
   function bind() {
     $('lang').addEventListener('click', function () { lang = lang === 'en' ? 'zh' : 'en'; saveLang(); renderAll(); if (!$('lb').hidden) lbCaption(visibleWorks[current]); });

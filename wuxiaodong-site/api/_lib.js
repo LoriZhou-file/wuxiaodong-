@@ -57,6 +57,7 @@ function validateContent(d) {
   for (const k of ['site', 'about', 'video']) if (!d[k] || typeof d[k] !== 'object') return 'Missing section: ' + k;
   for (const k of ['works', 'exhibitions', 'news']) if (!Array.isArray(d[k])) return 'Section must be a list: ' + k;
   for (const w of d.works) if (!w || typeof w !== 'object' || !w.image) return 'Every work needs an image.';
+  if (d.concept != null) { if (typeof d.concept !== 'object' || (d.concept.sections != null && !Array.isArray(d.concept.sections))) return 'Concept section is malformed.'; for (const sc of (d.concept.sections || [])) if (!sc || typeof sc !== 'object' || (sc.items != null && !Array.isArray(sc.items))) return 'Concept section is malformed.'; }
   const bad = u => u && !/^(https?:\/\/|mailto:|\/|images\/|media\/)/i.test(u);
   for (const x of d.exhibitions) { if (bad(x.link)) return 'Invalid link in exhibitions.'; if (x.start && !/^\d{4}-\d{2}-\d{2}$/.test(x.start)) return 'Dates must look like 2026-05-30.'; if (x.end && !/^\d{4}-\d{2}-\d{2}$/.test(x.end)) return 'Dates must look like 2026-05-30.'; }
   for (const x of d.news) if (bad(x.link)) return 'Invalid link in news.';
