@@ -1,0 +1,674 @@
+{
+  "site": {
+    "name": {
+      "en": "Wu Xiaodong",
+      "zh": "吴晓东"
+    },
+    "tagline": {
+      "en": "Water is the other author.",
+      "zh": "水,是另一位作者。"
+    },
+    "description": {
+      "en": "Wu Xiaodong (b. 1968, Shanghai) paints with mineral pigment on Xuan paper, letting water and gravity write every line. Carbon-Based Naturalism.",
+      "zh": "吴晓东(1968年生,现居上海),以矿物颜料在宣纸上作画,让水与重力写下每一条线。碳基自然主义。"
+    },
+    "instagram": "https://www.instagram.com/wuxiaodong.art",
+    "email": "",
+    "hero": {
+      "image": "images/hero.jpg",
+      "title": {
+        "en": "Rain Bamboo",
+        "zh": "雨竹"
+      },
+      "caption": {
+        "en": "2025 · Mineral pigment and watercolour on Xuan paper · 180 × 140 cm",
+        "zh": "2025 · 宣纸纸本、矿物质颜料、水彩 · 180 × 140 cm"
+      }
+    }
+  },
+  "about": {
+    "portrait": "images/artist.jpg",
+    "bio": {
+      "en": "Wu Xiaodong was born in 1968 and lives and works in Shanghai. He studied at Nanjing University of the Arts and East China Normal University, and is guest professor at the Xu Beihong Art Academy and Shanghai Maritime University, and advisor to the China International Environmental Art Committee. He is the founder of Carbon-Based Naturalism. Working on Xuan paper with mineral pigment, he lets water carry colour under gravity and treats it as a co-author of the painting.",
+      "zh": "吴晓东,1968年生,现工作生活于上海。先后就读于南京艺术学院与华东师范大学,现任徐悲鸿艺术学院、上海海事大学客座教授,中国国际环境艺术委员会顾问。他是「碳基自然主义」的创立者。他以宣纸与矿物颜料作画,让水在重力下带着颜色流动,并把水视为画作的共同作者。"
+    },
+    "theory": []
+  },
+  "video": {
+    "src": "media/water-the-other-author.mp4",
+    "poster": "images/video-poster.jpg",
+    "title": {
+      "en": "Water, the Other Author",
+      "zh": "水,是另一位作者"
+    },
+    "caption": {
+      "en": "53 seconds from the studio, with subtitles.",
+      "zh": "来自工作室的 53 秒,含字幕。"
+    }
+  },
+  "works": [
+    {
+      "id": "rain-bamboo",
+      "title": {
+        "en": "Rain Bamboo",
+        "zh": "雨竹"
+      },
+      "year": "2025",
+      "medium": {
+        "en": "Mineral pigment and watercolour on Xuan paper",
+        "zh": "宣纸纸本、矿物质颜料、水彩"
+      },
+      "size": "180 × 140 cm",
+      "image": "images/works/rain-bamboo.jpg",
+      "text": {
+        "en": "The rain was not drawn. Pigment and water are released from the upper edge and gravity writes every line. Behind the curtain stands a bamboo grove, one organism joined underground, and in the centre a pale clearing where the rain thins into light.",
+        "zh": "画中的雨并非画出,而是颜料与水从上沿释放,由重力写下每一条线。雨帘之后是一片竹林,地下相连、如同一个生命体;画面中央的留白,是雨渐薄成光的地方。"
+      },
+      "visible": true
+    },
+    {
+      "id": "rain-pine",
+      "title": {
+        "en": "Rain Pine",
+        "zh": "雨松"
+      },
+      "year": "2021–2026",
+      "medium": {
+        "en": "Mineral pigment and watercolour on Xuan paper",
+        "zh": "宣纸纸本、矿物质颜料、水彩"
+      },
+      "size": "181 × 138 cm",
+      "image": "images/works/rain-pine.jpg",
+      "text": {
+        "en": "A solitary pine and its stone meet vertical lines of white, diluted pigment released from the upper edge and surrendered to gravity. The lines pass through needle, stone and trunk without deviating.",
+        "zh": "一株孤松与岩石,迎面遇上垂直的白色线条:稀释的颜料从纸的上沿释放,交给重力。线条穿过松针、岩石与树干,毫不偏移。"
+      },
+      "visible": true
+    },
+    {
+      "id": "wind-rain-rock-bamboo",
+      "title": {
+        "en": "Wind-Rain Rock Bamboo",
+        "zh": "风雨石竹"
+      },
+      "year": "2021–2026",
+      "medium": {
+        "en": "Mineral pigment and watercolour on Xuan paper",
+        "zh": "宣纸纸本、矿物质颜料、水彩"
+      },
+      "size": "230 × 130 cm",
+      "image": "images/works/wind-rain-rock-bamboo.jpg",
+      "text": {
+        "en": "Wind enters the series. Diagonal lines sweep across dark rock before the painting clears into upright bamboo, dissolving into a pale, backlit distance.",
+        "zh": "风进入了这个系列。斜向的线条扫过深色岩石,画面随后转为挺立的竹,消融在苍白、逆光的远处。"
+      },
+      "visible": true
+    },
+    {
+      "id": "botanical-garden-in-the-rain",
+      "title": {
+        "en": "Botanical Garden in the Rain",
+        "zh": "雨中植物园"
+      },
+      "year": "2021–2026",
+      "medium": {
+        "en": "Mineral pigment and watercolour on Xuan paper",
+        "zh": "宣纸纸本、矿物质颜料、水彩"
+      },
+      "size": "230 × 130 cm",
+      "image": "images/works/botanical-garden-in-the-rain.jpg",
+      "text": {
+        "en": "A garden seen through a curtain of falling water. First exhibited as Botanical Garden.",
+        "zh": "隔着一道落水的帘幕看见的植物园。此前展出时名为《植物园》。"
+      },
+      "visible": true
+    },
+    {
+      "id": "rain-banana-leaf-rock",
+      "title": {
+        "en": "Rain Amid Banana-Leaf Rock",
+        "zh": "雨中芭蕉石"
+      },
+      "year": "2021–2026",
+      "medium": {
+        "en": "Mineral pigment and watercolour on Xuan paper",
+        "zh": "宣纸纸本、矿物质颜料、水彩"
+      },
+      "size": "180 × 140 cm",
+      "image": "images/works/rain-banana-leaf-rock.jpg",
+      "text": {
+        "en": "Banana leaves and perforated rock behind interwoven lines of rain: the leaf's way of telling you it heard the water.",
+        "zh": "芭蕉叶与多孔的岩石,隐在交织的雨线之后:这是叶子告诉你它听见了水的方式。"
+      },
+      "visible": true
+    },
+    {
+      "id": "mountain-bamboo-1",
+      "title": {
+        "en": "Mountain Bamboo No. 1",
+        "zh": "山竹系列 1"
+      },
+      "year": "2025",
+      "medium": {
+        "en": "Mineral pigment and watercolour on Xuan paper",
+        "zh": "宣纸纸本、矿物质颜料、水彩"
+      },
+      "size": "120 × 120 cm",
+      "image": "images/works/mountain-bamboo-1.jpg",
+      "text": {
+        "en": "Cool, silver-white. One young bamboo seen through a curtain of vertical lines, painted three times with only the colour temperature changed.",
+        "zh": "冷调,银白。同一株幼竹,隔着垂直线条的帘幕,画了三次,只改变色温。"
+      },
+      "visible": true
+    },
+    {
+      "id": "mountain-bamboo-2",
+      "title": {
+        "en": "Mountain Bamboo No. 2",
+        "zh": "山竹系列 2"
+      },
+      "year": "2025",
+      "medium": {
+        "en": "Mineral pigment and watercolour on Xuan paper",
+        "zh": "宣纸纸本、矿物质颜料、水彩"
+      },
+      "size": "120 × 120 cm",
+      "image": "images/works/mountain-bamboo-2.jpg",
+      "text": {
+        "en": "Warm, orange-red. One young bamboo seen through a curtain of vertical lines, painted three times with only the colour temperature changed.",
+        "zh": "暖调,橙红。同一株幼竹,隔着垂直线条的帘幕,画了三次,只改变色温。"
+      },
+      "visible": true
+    },
+    {
+      "id": "mountain-bamboo-3",
+      "title": {
+        "en": "Mountain Bamboo No. 3",
+        "zh": "山竹系列 3"
+      },
+      "year": "2025",
+      "medium": {
+        "en": "Mineral pigment and watercolour on Xuan paper",
+        "zh": "宣纸纸本、矿物质颜料、水彩"
+      },
+      "size": "120 × 120 cm",
+      "image": "images/works/mountain-bamboo-3.jpg",
+      "text": {
+        "en": "Green-gold. One young bamboo seen through a curtain of vertical lines, painted three times with only the colour temperature changed.",
+        "zh": "绿金。同一株幼竹,隔着垂直线条的帘幕,画了三次,只改变色温。"
+      },
+      "visible": true
+    },
+    {
+      "id": "day-rain-bamboo-rock",
+      "title": {
+        "en": "Day Rain, Bamboo and Rock",
+        "zh": "雨日竹石"
+      },
+      "year": "2026",
+      "medium": {
+        "en": "Mineral pigment and watercolour on Xuan paper",
+        "zh": "宣纸纸本、矿物质颜料、水彩"
+      },
+      "size": "94 × 144 cm",
+      "image": "images/works/day-rain-bamboo-rock.jpg",
+      "text": {
+        "en": "A warm coral-orange glow through ochre and gold lines.",
+        "zh": "暖珊瑚橙的光,透过赭色与金色的线条。"
+      },
+      "visible": true
+    },
+    {
+      "id": "night-rain-bamboo-rock",
+      "title": {
+        "en": "Night Rain, Bamboo and Rock",
+        "zh": "雨夜竹石"
+      },
+      "year": "2026",
+      "medium": {
+        "en": "Mineral pigment and watercolour on Xuan paper",
+        "zh": "宣纸纸本、矿物质颜料、水彩"
+      },
+      "size": "94 × 144 cm",
+      "image": "images/works/night-rain-bamboo-rock.jpg",
+      "text": {
+        "en": "A pale, near-white disc, the moon or an opening in the rain itself, drawn with the same lines that make the rain.",
+        "zh": "一轮近乎白色的圆盘,是月亮,也是雨自身的一个缺口,由造雨的同一些线条画成。"
+      },
+      "visible": true
+    },
+    {
+      "id": "day-rain-banana-leaf-rock",
+      "title": {
+        "en": "Day Rain, Banana-Leaf Rock",
+        "zh": "雨日芭蕉石"
+      },
+      "year": "2026",
+      "medium": {
+        "en": "Mineral pigment and watercolour on Xuan paper",
+        "zh": "宣纸纸本、矿物质颜料、水彩"
+      },
+      "size": "94 × 144 cm",
+      "image": "images/works/day-rain-banana-leaf-rock.jpg",
+      "text": {
+        "en": "A small warm orange disc, a low sun, behind interwoven lines above dark rock and cooler banana leaves.",
+        "zh": "一轮小小的暖橙圆盘,如低垂的太阳,在交织的线条之后,下方是深色岩石与偏冷的芭蕉叶。"
+      },
+      "visible": true
+    },
+    {
+      "id": "night-rain-banana-leaf-rock",
+      "title": {
+        "en": "Night Rain, Banana-Leaf Rock",
+        "zh": "雨夜芭蕉石"
+      },
+      "year": "2026",
+      "medium": {
+        "en": "Mineral pigment and watercolour on Xuan paper",
+        "zh": "宣纸纸本、矿物质颜料、水彩"
+      },
+      "size": "94 × 144 cm",
+      "image": "images/works/night-rain-banana-leaf-rock.jpg",
+      "text": {
+        "en": "A luminous white disc dissolves leaves and rock into near-abstraction; only the dark, perforated stone stays clearly legible.",
+        "zh": "一轮发光的白色圆盘,把叶与石融成近乎抽象;只有深色、有孔的石头依然清晰。"
+      },
+      "visible": true
+    }
+  ],
+  "exhibitions": [
+    {
+      "id": "ex-2027-yichi",
+      "start": "2027-01-01",
+      "end": "2027-04-02",
+      "kind": "solo",
+      "title": {
+        "en": "Carbon-Based Naturalism: Sediments Beyond the Algorithm",
+        "zh": "吴晓东碳基自然主义绘画个人展览:算法外的沉积"
+      },
+      "venue": {
+        "en": "Yichi Shanhai Art Museum",
+        "zh": "一尺山海美术馆"
+      },
+      "city": {
+        "en": "",
+        "zh": ""
+      },
+      "note": {
+        "en": "",
+        "zh": ""
+      },
+      "link": ""
+    },
+    {
+      "id": "ex-2026-art021",
+      "start": "2026-11-01",
+      "end": "2026-11-30",
+      "dateText": {
+        "en": "November 2026",
+        "zh": "2026年11月"
+      },
+      "kind": "fair",
+      "title": {
+        "en": "ART021 Shanghai Contemporary Art Fair",
+        "zh": "ART021 上海当代艺术博览会"
+      },
+      "venue": {
+        "en": "Shanghai Exhibition Centre, with Yanwu Gallery",
+        "zh": "上海展览中心,言午画廊参展"
+      },
+      "city": {
+        "en": "Shanghai",
+        "zh": "上海"
+      },
+      "note": {
+        "en": "Plant and stone series.",
+        "zh": "植物系列与石系列。"
+      },
+      "link": ""
+    },
+    {
+      "id": "ex-2026-caibing",
+      "start": "2026-05-30",
+      "end": "2026-06-29",
+      "kind": "solo",
+      "title": {
+        "en": "Solo exhibition",
+        "zh": "个展"
+      },
+      "venue": {
+        "en": "Caibing Museum",
+        "zh": "蔡兵美术馆"
+      },
+      "city": {
+        "en": "Shanghai",
+        "zh": "上海"
+      },
+      "note": {
+        "en": "31 works on paper.",
+        "zh": "31 件纸本作品。"
+      },
+      "link": "https://www.sohu.com/a/1032210886_121956422"
+    },
+    {
+      "id": "ex-2025-art021",
+      "start": "2025-11-13",
+      "end": "2025-11-16",
+      "kind": "fair",
+      "title": {
+        "en": "ART021 Shanghai Contemporary Art Fair",
+        "zh": "ART021 上海当代艺术博览会"
+      },
+      "venue": {
+        "en": "Shanghai Exhibition Centre, with Yanwu Gallery",
+        "zh": "上海展览中心,言午画廊参展"
+      },
+      "city": {
+        "en": "Shanghai",
+        "zh": "上海"
+      },
+      "note": {
+        "en": "Exhibited Rain Bamboo.",
+        "zh": "展出《雨竹》。"
+      },
+      "link": ""
+    },
+    {
+      "id": "ex-2025-third",
+      "start": "2025-11-07",
+      "end": "2025-11-16",
+      "kind": "solo",
+      "title": {
+        "en": "The Third Route",
+        "zh": "第三条路线"
+      },
+      "venue": {
+        "en": "Yanwu Space (Hall 7), Powerlong Museum",
+        "zh": "上海宝龙美术馆言午空间(7号厅)"
+      },
+      "city": {
+        "en": "Shanghai",
+        "zh": "上海"
+      },
+      "note": {
+        "en": "",
+        "zh": ""
+      },
+      "link": ""
+    },
+    {
+      "id": "ex-2025-fotile",
+      "start": "2025-09-28",
+      "end": "2025-10-18",
+      "kind": "group",
+      "title": {
+        "en": "Contemporary Art Group Exhibition",
+        "zh": "当代艺术联展"
+      },
+      "venue": {
+        "en": "Fotile Super Experience Centre, 6F Art Gallery",
+        "zh": "方太超级体验馆6F艺术展厅"
+      },
+      "city": {
+        "en": "Shanghai",
+        "zh": "上海"
+      },
+      "note": {
+        "en": "With Shi Jiayi and Fan Yufei.",
+        "zh": "吴晓东、石佳宜、樊雨飞。"
+      },
+      "link": ""
+    },
+    {
+      "id": "ex-2025-fulixing",
+      "start": "2025-05-01",
+      "end": "2025-06-15",
+      "kind": "group",
+      "title": {
+        "en": "Scroll of Spring Light",
+        "zh": "景春韶光卷"
+      },
+      "venue": {
+        "en": "Taifu Xiahe · Fulixing, 319 West Jianguo Road, Xuhui District",
+        "zh": "泰富夏和·福利行,徐汇区建国西路319号"
+      },
+      "city": {
+        "en": "Shanghai",
+        "zh": "上海"
+      },
+      "note": {
+        "en": "",
+        "zh": ""
+      },
+      "link": ""
+    },
+    {
+      "id": "ex-2024-ten",
+      "start": "2024-11-15",
+      "end": "2024-11-21",
+      "kind": "solo",
+      "title": {
+        "en": "Wu Xiaodong: Ten Years",
+        "zh": "吴晓东·十年"
+      },
+      "venue": {
+        "en": "Yanwu Gallery, Powerlong Art Center",
+        "zh": "宝龙艺术中心·言午画廊"
+      },
+      "city": {
+        "en": "Shanghai",
+        "zh": "上海"
+      },
+      "note": {
+        "en": "",
+        "zh": ""
+      },
+      "link": "https://www.taoart.com/information/detail/54771.htm"
+    }
+  ],
+  "news": [],
+  "concept": {
+    "title": {
+      "en": "Concept",
+      "zh": "理念"
+    },
+    "intro": {
+      "en": "Working on Xuan paper, Wu Xiaodong lets mineral pigment seep and settle, lets water fall in vertical lines, and lets dots grow into living matrices. In an age when algorithmic visual culture is rapidly homogenising, he holds a painterly position founded on the material time of carbon-based life.",
+      "zh": "吴晓东以宣纸为核心媒介,通过矿物颜料的渗透沉积、重力流淌线条与生命点阵结构,在算法视觉文化急速同质化的当代语境中,确立起一种以碳基生命物质时间为基础的绘画哲学立场。"
+    },
+    "sections": [
+      {
+        "title": {
+          "en": "Core ideas",
+          "zh": "核心理念"
+        },
+        "lead": {
+          "en": "",
+          "zh": ""
+        },
+        "items": [
+          {
+            "title": {
+              "en": "Carbon-Based Naturalism",
+              "zh": "碳基自然主义"
+            },
+            "text": {
+              "en": "Centred on the porous bio-matrix of Xuan paper fibre, it treats the seepage, sedimentation and diffusion of mineral pigment as an organic, metabolic process rather than a controlled brushstroke. It is a visualisation of the logic of carbon-based matter: slow, irreversible, and not fully reproducible by an algorithm.",
+              "zh": "以宣纸纤维的多孔生物基质(Bio-matrix)为核心,将矿物颜料的渗透、沉积与扩散视为一种有机的“生物代谢”过程,而非可控的人工笔触。这是对碳基生命物质逻辑的视觉化:缓慢、不可逆、不可被算法完全复现。"
+            }
+          },
+          {
+            "title": {
+              "en": "The Third Route",
+              "zh": "第三条路线"
+            },
+            "text": {
+              "en": "It refuses the passive repetition of inherited brushwork habit (the first route), and it refuses the frictionless production of silicon-based algorithmic images (the second). The third route is the tension and resonance between carbon-based life and physical law: gravity, entropy, capillary seepage. Together these natural processes make up a “biological noise” that cannot be digitised.",
+              "zh": "既拒绝传统笔墨惯性的被动重复(第一条路线),也拒绝硅基算法图像的无摩擦生产(第二条路线)。第三条路线是碳基生命与物理法则之间的张力与共鸣:重力、熵、毛细渗透。这些自然过程共同构成了无法被数字化的“生命噪声”(Biological Noise)。"
+            }
+          },
+          {
+            "title": {
+              "en": "Yi Pai Spirit",
+              "zh": "意派精神"
+            },
+            "text": {
+              "en": "Beyond the opposition of representation and expression, it returns to the artist's intuitive arising of “yi” (intention). The picture does not imitate an image; it presents a state of life directly, letting intention emerge in the biological time of the paper through the natural behaviour of the material.",
+              "zh": "超越“再现”与“表现”的二元对立,回归艺术家对“意”的直觉生发。吴晓东的画面并非图像的模仿,而是对生命状态的直接呈现:通过物质媒介的自然行为,让“意”在宣纸的生物时间中自然涌现。"
+            }
+          },
+          {
+            "title": {
+              "en": "New Nebulism",
+              "zh": "新朦胧主义"
+            },
+            "text": {
+              "en": "Deliberate blurring of edges is not technical vagueness but fidelity to life: there is no absolute border between cells, no clean division between ecosystems. Against the over-definition and informational violence of digital images, material blur protects the complexity of living things.",
+              "zh": "边界的刻意模糊不是技法的含混,而是对生命状态的忠实描摹:细胞之间没有绝对边界,生态系统之间没有清晰分割。吴晓东的画面以朦胧对抗数字图像的过度清晰与信息暴力,以物质的模糊性守护生命的复杂性。"
+            }
+          },
+          {
+            "title": {
+              "en": "Carbon Time",
+              "zh": "碳基时间"
+            },
+            "text": {
+              "en": "Every layer of pigment on the paper is a physical inscription of time: the geological diffusion of mineral colour through fibre, the irreversible tracks of falling water. This gives the work a carbon-based temporality that algorithms cannot simulate: slow, weighted, and not to be accelerated.",
+              "zh": "宣纸上的每一层颜料沉积,都是时间的物理铭刻。矿物颜料在纤维中的地质性扩散、重力流淌的不可逆行迹,赋予作品一种算法永远无法模拟的“碳基时间性”:缓慢的、有重量的、不可被加速的生命时间。"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Point · Line · Plane",
+          "zh": "点·线·面"
+        },
+        "lead": {
+          "en": "Wu Xiaodong recasts the basic vocabulary of painting, point, line and plane, as visual counterparts of the life sciences. Together they form a complete sign system of carbon-based life.",
+          "zh": "吴晓东将传统绘画的基本语汇“点、线、面”重构为生命科学的视觉对应物,三者共同构成一套完整的碳基生命符号系统。"
+        },
+        "items": [
+          {
+            "title": {
+              "en": "Point: Genetic Coding",
+              "zh": "点:基因式点阵"
+            },
+            "text": {
+              "en": "Mineral ink dots seep into form within the bio-matrix of Xuan paper and gather into dense, cell-like colonies. It is a visualisation of genetic code, not cold geometry but organic density.",
+              "zh": "矿物墨点在宣纸生物基质中自然渗透成形,形成密集的细胞化群落。这是生命遗传编码的视觉化,不是冷峻几何,而是有机密度。"
+            }
+          },
+          {
+            "title": {
+              "en": "Line: Vertical Flux",
+              "zh": "线:垂直流淌线条"
+            },
+            "text": {
+              "en": "The artist releases pigment from the upper edge of the paper and lets gravity lead it downward. This is an active surrender of authorship to natural law, and a philosophical answer to entropy and the dissipation of energy.",
+              "zh": "艺术家将颜料自纸张上沿释放,任由重力引导下行。这是创作主权向自然物理法则的主动让渡,是对熵与能量耗散的哲学回应。"
+            }
+          },
+          {
+            "title": {
+              "en": "Plane: Bio-matrix",
+              "zh": "面:生物基质平面"
+            },
+            "text": {
+              "en": "Xuan paper fibre is itself a living carrier. Its porosity and resistance to absorption decide the path and deposit of the pigment: the inscription of carbon-based life's “geological time” on a flat surface.",
+              "zh": "宣纸纤维本身即是活的生物载体。其多孔性与吸附阻力决定了颜料的渗透路径与沉积方式,是碳基生命的“地质时间”在平面上的物质铭刻。"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Dialogues",
+          "zh": "对话与坐标"
+        },
+        "lead": {
+          "en": "",
+          "zh": ""
+        },
+        "items": [
+          {
+            "title": {
+              "en": "New Materialism and Post-humanism",
+              "zh": "新物质主义与后人类主义"
+            },
+            "text": {
+              "en": "The practice can be read in conversation with new materialism and post-humanist thought, as an Eastern answer to the question of material agency.",
+              "zh": "这一实践可与新物质主义、后人类主义的讨论对话,是对“物质能动性”(material agency)问题的一种东方回应。"
+            }
+          },
+          {
+            "title": {
+              "en": "Mono-ha",
+              "zh": "物派精神共鸣"
+            },
+            "text": {
+              "en": "It shares with Mono-ha, and with Lee Ufan, an attention to gravity, entropy and the force of matter itself. Wu Xiaodong goes on from the cool inorganic stance of Mono-ha to the organic fibre of Xuan paper, bringing in the warmth and temporality of carbon-based life.",
+              "zh": "与韩国物派及李禹焕在重力、熵与物质本身的力量上有精神共鸣。吴晓东以宣纸纤维的有机生物性,从物派的冷峻无机走向碳基生命的温度与时间性。"
+            }
+          },
+          {
+            "title": {
+              "en": "Beyond Minimalism",
+              "zh": "极简主义之外"
+            },
+            "text": {
+              "en": "The dot matrix echoes in appearance the grids of Agnes Martin or Sol LeWitt, but the core differs: mathematical reason gives way to the organic density of carbon-based life, a visualisation of biological genetic code rather than a cold geometric exercise.",
+              "zh": "点阵结构在外观上与 Agnes Martin、Sol LeWitt 的网格形成呼应,但内核不同:西方极简的数学理性被碳基生命的有机密度所取代,这是生物遗传密码的视觉化,而非冰冷的几何练习。"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Principal series",
+          "zh": "主要创作系列"
+        },
+        "lead": {
+          "en": "",
+          "zh": ""
+        },
+        "items": [
+          {
+            "title": {
+              "en": "Stone Series, 2022–2025",
+              "zh": "石系列 2022—2025"
+            },
+            "text": {
+              "en": "Pentaptychs and triptychs. The traditional literati scholar's rock (Taihu stone) is deconstructed into a pulsing matrix of living forms; geological silence is woken by the surge of carbon-based life.",
+              "zh": "五联幅、三联幅。将传统文人石图式(太湖石)解构为脉动的生物形态矩阵,地质的沉默被碳基生命的涌动所激活。"
+            }
+          },
+          {
+            "title": {
+              "en": "Plant Series, 2021–2025 (ongoing)",
+              "zh": "植物系列 2021—2025 持续创作中"
+            },
+            "text": {
+              "en": "Studies of tropical plants, pine and vine, with falling water and growing dots as visual grammar, exploring how plants as living bodies grow, diffuse and dissolve in time.",
+              "zh": "通过对热带植物、松树、藤蔓等碳基生命形态的研究,以重力流淌与点阵生长为视觉语法,探索植物作为生命体在时间中生长、扩散与消解的过程。"
+            }
+          },
+          {
+            "title": {
+              "en": "Landscape Series, 2020–2021",
+              "zh": "风景系列 2020—2021"
+            },
+            "text": {
+              "en": "Raw ink atmosphere, galloping horses, evening glow and vertical liquid rain: natural scenery given its carbon-based temporality through purely physical processes, the fall of ink and the absorption of fibre.",
+              "zh": "以原始墨色大气、奔马、晚霞与垂直流淌的液态雨为视觉核心,通过纯粹的物理过程,即墨的下落与纤维的吸收,呈现自然景观的碳基时间性。"
+            }
+          }
+        ]
+      }
+    ],
+    "closing": {
+      "en": "In the age of algorithms, Wu Xiaodong's hand-made practice is no longer simply a matter of technique. It is a philosophical position: an insistence on slowness, unpredictability, and the irreducible friction of carbon-based time.",
+      "zh": "在算法时代,吴晓东的手工性不再仅仅是技艺,而成为一种关于生命存在的哲学立场。它意味着缓慢、不可预测,以及人与物质之间仍然保留的、那份尚未被算法完全同质化的碳基时间。"
+    }
+  }
+}
