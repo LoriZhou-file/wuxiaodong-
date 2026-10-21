@@ -13,7 +13,7 @@
       "zh": "吴晓东(1968年生,现居上海),以矿物颜料在宣纸上作画,让水与重力写下每一条线。碳基自然主义。"
     },
     "instagram": "https://www.instagram.com/wuxiaodong.art",
-    "email": "",
+    "email": "lorizhou@artist-wuxiaodong.com",
     "hero": {
       "image": "images/hero.jpg",
       "title": {
@@ -298,7 +298,11 @@
         "en": "",
         "zh": ""
       },
-      "link": ""
+      "link": "",
+      "dateText": {
+        "en": "",
+        "zh": ""
+      }
     },
     {
       "id": "ex-2026-art021",
@@ -348,7 +352,11 @@
         "en": "31 works on paper.",
         "zh": "31 件纸本作品。"
       },
-      "link": "https://www.sohu.com/a/1032210886_121956422"
+      "link": "https://www.sohu.com/a/1032210886_121956422",
+      "dateText": {
+        "en": "",
+        "zh": ""
+      }
     },
     {
       "id": "ex-2025-art021",
@@ -371,7 +379,11 @@
         "en": "Exhibited Rain Bamboo.",
         "zh": "展出《雨竹》。"
       },
-      "link": ""
+      "link": "",
+      "dateText": {
+        "en": "",
+        "zh": ""
+      }
     },
     {
       "id": "ex-2025-third",
@@ -394,7 +406,11 @@
         "en": "",
         "zh": ""
       },
-      "link": ""
+      "link": "",
+      "dateText": {
+        "en": "",
+        "zh": ""
+      }
     },
     {
       "id": "ex-2025-fotile",
@@ -417,7 +433,11 @@
         "en": "With Shi Jiayi and Fan Yufei.",
         "zh": "吴晓东、石佳宜、樊雨飞。"
       },
-      "link": ""
+      "link": "",
+      "dateText": {
+        "en": "",
+        "zh": ""
+      }
     },
     {
       "id": "ex-2025-fulixing",
@@ -440,7 +460,11 @@
         "en": "",
         "zh": ""
       },
-      "link": ""
+      "link": "",
+      "dateText": {
+        "en": "",
+        "zh": ""
+      }
     },
     {
       "id": "ex-2024-ten",
@@ -463,7 +487,11 @@
         "en": "",
         "zh": ""
       },
-      "link": "https://www.taoart.com/information/detail/54771.htm"
+      "link": "https://www.taoart.com/information/detail/54771.htm",
+      "dateText": {
+        "en": "",
+        "zh": ""
+      }
     }
   ],
   "news": [],
