@@ -279,8 +279,8 @@
   "exhibitions": [
     {
       "id": "ex-2027-yichi",
-      "start": "2027-01-01",
-      "end": "2027-04-02",
+      "start": "2026-11-15",
+      "end": "2027-03-31",
       "kind": "solo",
       "title": {
         "en": "Carbon-Based Naturalism: Sediments Beyond the Algorithm",
@@ -291,8 +291,8 @@
         "zh": "一尺山海美术馆"
       },
       "city": {
-        "en": "",
-        "zh": ""
+        "en": "Shanghai",
+        "zh": "上海"
       },
       "note": {
         "en": "",
