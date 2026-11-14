@@ -13,7 +13,7 @@
       "zh": "吴晓东(1968年生,现居上海),以矿物颜料在宣纸上作画,让水与重力写下每一条线。碳基自然主义。"
     },
     "instagram": "https://www.instagram.com/wuxiaodong.art",
-    "email": "lorizhou@artist-wuxiaodong.com",
+    "email": "",
     "hero": {
       "image": "images/hero.jpg",
       "title": {
@@ -278,7 +278,7 @@
   ],
   "exhibitions": [
     {
-      "id": "ex-2027-yichi",
+      "id": "ex-2026-yichi",
       "start": "2026-11-15",
       "end": "2027-03-31",
       "kind": "solo",
@@ -287,27 +287,23 @@
         "zh": "吴晓东碳基自然主义绘画个人展览:算法外的沉积"
       },
       "venue": {
-        "en": "One Step Universe Art Museum",
+        "en": "Yichi Shanhai Art Museum",
         "zh": "一尺山海美术馆"
       },
       "city": {
-        "en": "Shanghai",
-        "zh": "上海"
+        "en": "",
+        "zh": ""
       },
       "note": {
         "en": "",
         "zh": ""
       },
-      "link": "",
-      "dateText": {
-        "en": "",
-        "zh": ""
-      }
+      "link": ""
     },
     {
       "id": "ex-2026-art021",
-      "start": "2026-11-11",
-      "end": "2026-11-14",
+      "start": "2026-11-01",
+      "end": "2026-11-30",
       "dateText": {
         "en": "November 2026",
         "zh": "2026年11月"
@@ -352,11 +348,7 @@
         "en": "31 works on paper.",
         "zh": "31 件纸本作品。"
       },
-      "link": "https://www.sohu.com/a/1032210886_121956422",
-      "dateText": {
-        "en": "",
-        "zh": ""
-      }
+      "link": "https://www.sohu.com/a/1032210886_121956422"
     },
     {
       "id": "ex-2025-art021",
@@ -379,11 +371,7 @@
         "en": "Exhibited Rain Bamboo.",
         "zh": "展出《雨竹》。"
       },
-      "link": "",
-      "dateText": {
-        "en": "",
-        "zh": ""
-      }
+      "link": ""
     },
     {
       "id": "ex-2025-third",
@@ -406,11 +394,7 @@
         "en": "",
         "zh": ""
       },
-      "link": "",
-      "dateText": {
-        "en": "",
-        "zh": ""
-      }
+      "link": ""
     },
     {
       "id": "ex-2025-fotile",
@@ -433,11 +417,7 @@
         "en": "With Shi Jiayi and Fan Yufei.",
         "zh": "吴晓东、石佳宜、樊雨飞。"
       },
-      "link": "",
-      "dateText": {
-        "en": "",
-        "zh": ""
-      }
+      "link": ""
     },
     {
       "id": "ex-2025-fulixing",
@@ -460,11 +440,7 @@
         "en": "",
         "zh": ""
       },
-      "link": "",
-      "dateText": {
-        "en": "",
-        "zh": ""
-      }
+      "link": ""
     },
     {
       "id": "ex-2024-ten",
@@ -487,11 +463,7 @@
         "en": "",
         "zh": ""
       },
-      "link": "https://www.taoart.com/information/detail/54771.htm",
-      "dateText": {
-        "en": "",
-        "zh": ""
-      }
+      "link": "https://www.taoart.com/information/detail/54771.htm"
     }
   ],
   "news": [],
