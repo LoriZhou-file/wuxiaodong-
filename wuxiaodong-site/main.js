@@ -63,16 +63,54 @@
 
   function workMeta(w) { return [w.year, tr(w.medium), w.size].filter(Boolean).join(' · '); }
 
-  function renderWorks() {
+  var currentSeries = 'all';
+  var SERIES_LABELS = {
+    en: { all: 'All Works', stone: 'Stone Series', plant: 'Plant Series', landscape: 'Landscape Series' },
+    zh: { all: '全部作品', stone: '石系列', plant: '植物系列', landscape: '风景系列' }
+  };
+
+  function renderWorksGrid() {
     var g = $('works-grid'); g.textContent = '';
-    visibleWorks = (data.works || []).filter(function (w) { return w.visible !== false && w.image; });
-    visibleWorks.forEach(function (w, i) {
+    var allWorks = (data.works || []).filter(function (w) { return w.visible !== false && w.image; });
+    var filtered = currentSeries === 'all' ? allWorks : allWorks.filter(function (w) { return w.series === currentSeries; });
+    visibleWorks = filtered;
+    filtered.forEach(function (w, i) {
       var b = el('button', 'card'); b.type = 'button';
-      var ph = el('div', 'ph'), im = el('img'); im.src = safeUrl(w.image); im.alt = tr(w.title); im.loading = 'lazy'; ph.appendChild(im);
-      b.appendChild(ph); b.appendChild(el('p', 't', tr(w.title))); b.appendChild(el('p', 'm', [w.year, w.size].filter(Boolean).join(' · ')));
+      var ph = el('div', 'ph');
+      var im = el('img'); im.src = safeUrl(w.image); im.alt = tr(w.title); im.loading = 'lazy';
+      ph.appendChild(im);
+      if (w.series && SERIES_LABELS[lang][w.series]) {
+        ph.appendChild(el('span', 'card-series-tag', SERIES_LABELS[lang][w.series]));
+      }
+      var meta = el('div', 'card-meta');
+      meta.appendChild(el('p', 't', tr(w.title)));
+      meta.appendChild(el('p', 'm', [w.year, w.size].filter(Boolean).join(' · ')));
+      b.appendChild(ph); b.appendChild(meta);
       b.addEventListener('click', function () { openLb(i); });
       g.appendChild(b);
     });
+  }
+
+  function renderWorks() {
+    var allWorks = (data.works || []).filter(function (w) { return w.visible !== false && w.image; });
+    // Build series list from actual works
+    var seriesSet = ['all'];
+    ['stone', 'plant', 'landscape'].forEach(function (s) {
+      if (allWorks.some(function (w) { return w.series === s; })) seriesSet.push(s);
+    });
+    // Render filter buttons
+    var f = $('series-filter'); f.textContent = '';
+    seriesSet.forEach(function (s) {
+      var btn = el('button', s === currentSeries ? 'active' : '', SERIES_LABELS[lang][s] || s);
+      btn.addEventListener('click', function () {
+        currentSeries = s;
+        f.querySelectorAll('button').forEach(function (b) { b.classList.remove('active'); });
+        btn.classList.add('active');
+        renderWorksGrid();
+      });
+      f.appendChild(btn);
+    });
+    renderWorksGrid();
   }
 
   function exItem(x) {
@@ -154,8 +192,15 @@
   function renderContact() {
     var s = data.site, ui = UI[lang], box = $('contact-lines'); box.textContent = '';
     var ig = safeUrl(s.instagram);
-    if (ig) { var a = el('a', null, ui.follow + ' @' + ig.replace(/\/+$/, '').split('/').pop().split('?')[0]); a.href = ig; a.target = '_blank'; a.rel = 'noopener'; box.appendChild(a); box.appendChild(el('br')); }
-    if (s.email) { box.appendChild(document.createTextNode(ui.writeTo + ': ')); var m = el('a', null, s.email); m.href = 'mailto:' + s.email; box.appendChild(m); }
+    var sub = $('contact-sub');
+    if (sub) sub.textContent = lang === 'zh' ? '展览合作 · 收藏咨询 · 媒体联系' : 'Exhibition · Collection · Press';
+    if (s.email) {
+      var row1 = el('a', 'contact-link', s.email); row1.href = 'mailto:' + s.email; box.appendChild(row1);
+    }
+    if (ig) {
+      var igHandle = ig.replace(/\/+$/, '').split('/').pop().split('?')[0];
+      var row2 = el('a', 'contact-link', 'Instagram · @' + igHandle); row2.href = ig; row2.target = '_blank'; row2.rel = 'noopener'; box.appendChild(row2);
+    }
     ['ig-top', 'ig-foot'].forEach(function (id) { var n = $(id); if (ig) n.href = ig; else n.hidden = true; });
     $('foot-copy').textContent = '© ' + new Date().getFullYear() + ' ' + tr(s.name) + '. ' + ui.rights;
   }
@@ -175,7 +220,7 @@
   }
   function closeLb() { $('lb').hidden = true; document.body.style.overflow = ''; }
 
-  function renderAll() { renderStatic(); renderHero(); renderWorks(); renderConcept(); renderExhibitions(); renderVideo(); renderAbout(); renderNews(); renderContact(); }
+  function renderAll() { renderStatic(); renderHero(); currentSeries = 'all'; renderWorks(); renderConcept(); renderExhibitions(); renderVideo(); renderAbout(); renderNews(); renderContact(); }
 
   function bind() {
     $('lang').addEventListener('click', function () { lang = lang === 'en' ? 'zh' : 'en'; saveLang(); renderAll(); if (!$('lb').hidden) lbCaption(visibleWorks[current]); });
