@@ -4,12 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Wu Xiaodong 吴晓东 | Official Artist Website</title>
-<meta name="description" content="Wu Xiaodong (b. 1968, Shanghai) paints with mineral pigment on Xuan paper, letting water and gravity write every line. Carbon-Based Naturalism.">
+<meta name="description" content="Wu Xiaodong (b. 1968, Shanghai) — founder of Carbon-Based Naturalism. Mineral pigment on Xuan paper, letting gravity and water write every line.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Wu Xiaodong 吴晓东">
-<meta property="og:description" content="Water is the other author. Mineral pigment on Xuan paper.">
+<meta property="og:description" content="Carbon-Based Naturalism · The Third Route">
 <meta property="og:image" content="images/hero.jpg">
-<meta name="theme-color" content="#f4f2ec">
+<meta name="theme-color" content="#f5f3ee">
 <link rel="preload" as="image" href="images/hero.jpg">
 <link rel="stylesheet" href="style.css">
 </head>
@@ -27,7 +27,7 @@
   </nav>
   <div class="tools">
     <a class="ig" id="ig-top" href="#" target="_blank" rel="noopener" aria-label="Instagram">
-      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg>
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg>
     </a>
     <button class="lang" id="lang" type="button" aria-label="Language">中文</button>
   </div>
@@ -35,7 +35,7 @@
 
 <main>
   <section class="hero" id="hero">
-    <img id="hero-img" src="images/hero.jpg" alt="Rain Bamboo, 2025">
+    <img id="hero-img" src="images/hero.jpg" alt="">
     <div class="hero-text">
       <p class="hero-tag" id="hero-tag"></p>
       <h1 id="hero-title"></h1>
@@ -44,54 +44,73 @@
   </section>
 
   <section class="sec" id="works">
-    <h2 data-ui="works"></h2>
-    <div class="grid" id="works-grid"></div>
-  </section>
-
-  <section class="sec" id="concept">
-    <h2 data-ui="concept"></h2>
-    <p class="lead concept-intro" id="concept-intro"></p>
-    <div id="concept-body"></div>
-    <blockquote class="concept-closing" id="concept-closing"></blockquote>
-  </section>
-
-  <section class="sec alt" id="exhibitions">
-    <h2 data-ui="exhibitions"></h2>
-    <div id="ex-upcoming-wrap" hidden>
-      <h3 data-ui="upcoming"></h3>
-      <ul class="ex" id="ex-upcoming"></ul>
+    <div>
+      <span class="sec-label" data-ui="works"></span>
+      <div class="series-filter" id="series-filter"></div>
+      <div class="grid" id="works-grid"></div>
     </div>
-    <h3 data-ui="past"></h3>
-    <ul class="ex" id="ex-past"></ul>
   </section>
 
-  <section class="sec" id="video">
-    <h2 data-ui="video"></h2>
-    <figure class="vid">
-      <video id="vid" controls preload="none" playsinline></video>
-      <figcaption id="vid-cap"></figcaption>
-    </figure>
+  <section class="sec alt" id="concept">
+    <div>
+      <span class="sec-label" data-ui="concept"></span>
+      <p class="concept-intro" id="concept-intro"></p>
+      <div id="concept-body"></div>
+      <blockquote class="concept-closing" id="concept-closing"></blockquote>
+    </div>
   </section>
 
-  <section class="sec alt" id="about">
-    <h2 data-ui="about"></h2>
-    <div class="about">
-      <img id="about-img" alt="">
-      <div>
-        <p class="lead" id="about-bio"></p>
-        <div class="theory" id="about-theory"></div>
+  <section class="sec" id="exhibitions">
+    <div>
+      <span class="sec-label" data-ui="exhibitions"></span>
+      <div id="ex-upcoming-wrap" hidden>
+        <h3 data-ui="upcoming"></h3>
+        <ul class="ex" id="ex-upcoming"></ul>
+      </div>
+      <h3 data-ui="past"></h3>
+      <ul class="ex" id="ex-past"></ul>
+    </div>
+  </section>
+
+  <section class="sec alt" id="video">
+    <div>
+      <span class="sec-label" data-ui="video"></span>
+      <figure class="vid">
+        <video id="vid" controls preload="none" playsinline></video>
+        <figcaption id="vid-cap"></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="sec" id="about">
+    <div>
+      <span class="sec-label" data-ui="about"></span>
+      <div class="about">
+        <div class="about-portrait-wrap">
+          <img id="about-img" alt="Wu Xiaodong">
+          <div class="about-portrait-label" id="about-portrait-label">Wu Xiaodong 吴晓东</div>
+        </div>
+        <div>
+          <p class="lead" id="about-bio"></p>
+          <div class="theory" id="about-theory"></div>
+        </div>
       </div>
     </div>
   </section>
 
-  <section class="sec" id="news" hidden>
-    <h2 data-ui="news"></h2>
-    <ul class="news" id="news-list"></ul>
+  <section class="sec alt" id="news" hidden>
+    <div>
+      <span class="sec-label" data-ui="news"></span>
+      <ul class="news" id="news-list"></ul>
+    </div>
   </section>
 
-  <section class="sec alt" id="contact">
-    <h2 data-ui="contact"></h2>
-    <p id="contact-lines"></p>
+  <section class="sec" id="contact">
+    <div>
+      <h2 data-ui="contact"></h2>
+      <p class="contact-sub" id="contact-sub"></p>
+      <div class="contact-links" id="contact-lines"></div>
+    </div>
   </section>
 </main>
 
