@@ -13,7 +13,7 @@
       "zh": "吴晓东(1968年生,现居上海),以矿物颜料在宣纸上作画,让水与重力写下每一条线。碳基自然主义。"
     },
     "instagram": "https://www.instagram.com/wuxiaodong.art",
-    "email": "",
+    "email": "lorizhou@artist-wuxiaodong.com",
     "hero": {
       "image": "images/hero.jpg",
       "title": {
@@ -48,6 +48,54 @@
   },
   "works": [
     {
+      "id": "stone-series-pentaptych",
+      "title": {
+        "en": "Stone Series · Pentaptych",
+        "zh": "石·系列 五联幅"
+      },
+      "year": "2022–2025",
+      "medium": {
+        "en": "Mineral pigment on Xuan paper",
+        "zh": "矿物颜料 宣纸"
+      },
+      "size": "240×600 cm",
+      "series": "stone",
+      "image": "images/works/stone-series-pentaptych.jpg",
+      "visible": true
+    },
+    {
+      "id": "stone-series-triptych",
+      "title": {
+        "en": "Stone Series · Triptych",
+        "zh": "石·系列 三联幅"
+      },
+      "year": "2023",
+      "medium": {
+        "en": "Mineral pigment on Xuan paper",
+        "zh": "矿物颜料 宣纸"
+      },
+      "size": "240×360 cm",
+      "series": "stone",
+      "image": "images/works/stone-series-triptych.jpg",
+      "visible": true
+    },
+    {
+      "id": "stone-pine-shadow",
+      "title": {
+        "en": "Pine Shadow, Stone and Liquid Gravity",
+        "zh": "松影沥石"
+      },
+      "year": "2024",
+      "medium": {
+        "en": "Mineral pigment on Xuan paper",
+        "zh": "矿物颜料 宣纸"
+      },
+      "size": "180×96 cm",
+      "series": "stone",
+      "image": "images/works/stone-pine-shadow.jpg",
+      "visible": true
+    },
+    {
       "id": "rain-bamboo",
       "title": {
         "en": "Rain Bamboo",
@@ -64,7 +112,8 @@
         "en": "The rain was not drawn. Pigment and water are released from the upper edge and gravity writes every line. Behind the curtain stands a bamboo grove, one organism joined underground, and in the centre a pale clearing where the rain thins into light.",
         "zh": "画中的雨并非画出,而是颜料与水从上沿释放,由重力写下每一条线。雨帘之后是一片竹林,地下相连、如同一个生命体;画面中央的留白,是雨渐薄成光的地方。"
       },
-      "visible": true
+      "visible": true,
+      "series": "plant"
     },
     {
       "id": "rain-pine",
@@ -83,7 +132,8 @@
         "en": "A solitary pine and its stone meet vertical lines of white, diluted pigment released from the upper edge and surrendered to gravity. The lines pass through needle, stone and trunk without deviating.",
         "zh": "一株孤松与岩石,迎面遇上垂直的白色线条:稀释的颜料从纸的上沿释放,交给重力。线条穿过松针、岩石与树干,毫不偏移。"
       },
-      "visible": true
+      "visible": true,
+      "series": "plant"
     },
     {
       "id": "wind-rain-rock-bamboo",
@@ -102,7 +152,8 @@
         "en": "Wind enters the series. Diagonal lines sweep across dark rock before the painting clears into upright bamboo, dissolving into a pale, backlit distance.",
         "zh": "风进入了这个系列。斜向的线条扫过深色岩石,画面随后转为挺立的竹,消融在苍白、逆光的远处。"
       },
-      "visible": true
+      "visible": true,
+      "series": "plant"
     },
     {
       "id": "botanical-garden-in-the-rain",
@@ -121,7 +172,8 @@
         "en": "A garden seen through a curtain of falling water. First exhibited as Botanical Garden.",
         "zh": "隔着一道落水的帘幕看见的植物园。此前展出时名为《植物园》。"
       },
-      "visible": true
+      "visible": true,
+      "series": "plant"
     },
     {
       "id": "rain-banana-leaf-rock",
@@ -140,7 +192,8 @@
         "en": "Banana leaves and perforated rock behind interwoven lines of rain: the leaf's way of telling you it heard the water.",
         "zh": "芭蕉叶与多孔的岩石,隐在交织的雨线之后:这是叶子告诉你它听见了水的方式。"
       },
-      "visible": true
+      "visible": true,
+      "series": "plant"
     },
     {
       "id": "mountain-bamboo-1",
@@ -159,7 +212,8 @@
         "en": "Cool, silver-white. One young bamboo seen through a curtain of vertical lines, painted three times with only the colour temperature changed.",
         "zh": "冷调,银白。同一株幼竹,隔着垂直线条的帘幕,画了三次,只改变色温。"
       },
-      "visible": true
+      "visible": true,
+      "series": "plant"
     },
     {
       "id": "mountain-bamboo-2",
@@ -178,7 +232,8 @@
         "en": "Warm, orange-red. One young bamboo seen through a curtain of vertical lines, painted three times with only the colour temperature changed.",
         "zh": "暖调,橙红。同一株幼竹,隔着垂直线条的帘幕,画了三次,只改变色温。"
       },
-      "visible": true
+      "visible": true,
+      "series": "plant"
     },
     {
       "id": "mountain-bamboo-3",
@@ -197,7 +252,8 @@
         "en": "Green-gold. One young bamboo seen through a curtain of vertical lines, painted three times with only the colour temperature changed.",
         "zh": "绿金。同一株幼竹,隔着垂直线条的帘幕,画了三次,只改变色温。"
       },
-      "visible": true
+      "visible": true,
+      "series": "plant"
     },
     {
       "id": "day-rain-bamboo-rock",
@@ -216,7 +272,8 @@
         "en": "A warm coral-orange glow through ochre and gold lines.",
         "zh": "暖珊瑚橙的光,透过赭色与金色的线条。"
       },
-      "visible": true
+      "visible": true,
+      "series": "plant"
     },
     {
       "id": "night-rain-bamboo-rock",
@@ -235,7 +292,8 @@
         "en": "A pale, near-white disc, the moon or an opening in the rain itself, drawn with the same lines that make the rain.",
         "zh": "一轮近乎白色的圆盘,是月亮,也是雨自身的一个缺口,由造雨的同一些线条画成。"
       },
-      "visible": true
+      "visible": true,
+      "series": "plant"
     },
     {
       "id": "day-rain-banana-leaf-rock",
@@ -254,7 +312,8 @@
         "en": "A small warm orange disc, a low sun, behind interwoven lines above dark rock and cooler banana leaves.",
         "zh": "一轮小小的暖橙圆盘,如低垂的太阳,在交织的线条之后,下方是深色岩石与偏冷的芭蕉叶。"
       },
-      "visible": true
+      "visible": true,
+      "series": "plant"
     },
     {
       "id": "night-rain-banana-leaf-rock",
@@ -273,7 +332,8 @@
         "en": "A luminous white disc dissolves leaves and rock into near-abstraction; only the dark, perforated stone stays clearly legible.",
         "zh": "一轮发光的白色圆盘,把叶与石融成近乎抽象;只有深色、有孔的石头依然清晰。"
       },
-      "visible": true
+      "visible": true,
+      "series": "plant"
     }
   ],
   "exhibitions": [
