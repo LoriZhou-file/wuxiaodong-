@@ -24,5 +24,20 @@ module.exports = async (req, res) => {
     branch: c.branch
   });
   if (!put.ok) return res.status(502).json({ error: 'GitHub refused the save (' + put.status + '). The token needs Contents: read and write.' });
+
+  // Sync to wuxiaodong-site/content.json (the path the static frontend reads).
+  // Best-effort: a failure here does not roll back the primary save.
+  const syncPath = `/repos/${c.repo}/contents/wuxiaodong-site/content.json`;
+  try {
+    const syncCur = await gh(c, 'GET', `${syncPath}?ref=${encodeURIComponent(c.branch)}`);
+    const syncSha = syncCur.ok ? syncCur.json.sha : undefined;
+    await gh(c, 'PUT', syncPath, {
+      message: 'Sync content to wuxiaodong-site/ (auto)',
+      content: Buffer.from(text, 'utf8').toString('base64'),
+      sha: syncSha,
+      branch: c.branch
+    });
+  } catch (_) {}
+
   res.status(200).json({ ok: true, sha: put.json.content.sha });
 };
