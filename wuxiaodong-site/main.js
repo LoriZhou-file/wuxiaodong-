@@ -2,10 +2,10 @@
   'use strict';
   var UI = {
     en: { works: 'Works', concept: 'Concept', exhibitions: 'Exhibitions', video: 'Film', about: 'About', news: 'News', contact: 'Contact',
-      upcoming: 'Upcoming', past: 'Past', solo: 'Solo', group: 'Group', fair: 'Fair', close: 'Close',
+      upcoming: 'On Now', past: 'Past', solo: 'Solo', group: 'Group', fair: 'Fair', close: 'Close',
       writeTo: 'Email', follow: 'Follow on Instagram', rights: 'All rights reserved.' },
     zh: { works: '作品', concept: '理念', exhibitions: '展览', video: '影像', about: '关于', news: '动态', contact: '联系',
-      upcoming: '即将展出', past: '往期展览', solo: '个展', group: '联展', fair: '艺博会', close: '关闭',
+      upcoming: '展览进行中', past: '往期展览', solo: '个展', group: '联展', fair: '艺博会', close: '关闭',
       writeTo: '邮箱', follow: '在 Instagram 关注', rights: '版权所有。' }
   };
   var MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
