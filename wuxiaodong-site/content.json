@@ -48,51 +48,51 @@
   },
   "works": [
     {
-      "id": "stone-series-pentaptych",
+      "id": "stone-mass-of-dots",
       "title": {
-        "en": "Stone Series · Pentaptych",
-        "zh": "石·系列 五联幅"
+        "en": "Mass of Dots",
+        "zh": "点阵的弥撒"
       },
-      "year": "2022–2025",
+      "year": "2022",
       "medium": {
         "en": "Mineral pigment on Xuan paper",
         "zh": "矿物颜料 宣纸"
       },
-      "size": "240×600 cm",
+      "size": "",
       "series": "stone",
-      "image": "images/works/stone-series-pentaptych.jpg",
+      "image": "images/works/stone-mass-of-dots.jpg",
       "visible": true
     },
     {
-      "id": "stone-series-triptych",
+      "id": "stone-suspended-genome",
       "title": {
-        "en": "Stone Series · Triptych",
-        "zh": "石·系列 三联幅"
+        "en": "Suspended Genome",
+        "zh": "悬浮的基因组"
       },
-      "year": "2023",
+      "year": "2022",
       "medium": {
         "en": "Mineral pigment on Xuan paper",
         "zh": "矿物颜料 宣纸"
       },
-      "size": "240×360 cm",
+      "size": "",
       "series": "stone",
-      "image": "images/works/stone-series-triptych.jpg",
+      "image": "images/works/stone-suspended-genome.jpg",
       "visible": true
     },
     {
-      "id": "stone-pine-shadow",
+      "id": "stone-triptych-blessing",
       "title": {
-        "en": "Pine Shadow, Stone and Liquid Gravity",
-        "zh": "松影沥石"
+        "en": "Stone Series Triptych No. 1",
+        "zh": "石系列三联福1"
       },
-      "year": "2024",
+      "year": "2022",
       "medium": {
         "en": "Mineral pigment on Xuan paper",
         "zh": "矿物颜料 宣纸"
       },
-      "size": "180×96 cm",
+      "size": "",
       "series": "stone",
-      "image": "images/works/stone-pine-shadow.jpg",
+      "image": "images/works/stone-triptych-blessing.jpg",
       "visible": true
     },
     {
