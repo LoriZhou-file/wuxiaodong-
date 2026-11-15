@@ -13,7 +13,7 @@
       "zh": "吴晓东(1968年生,现居上海),以矿物颜料在宣纸上作画,让水与重力写下每一条线。碳基自然主义。"
     },
     "instagram": "https://www.instagram.com/wuxiaodong.art",
-    "email": "",
+    "email": "lorizhou@artist-wuxiaodong.com",
     "hero": {
       "image": "images/hero.jpg",
       "title": {
@@ -48,6 +48,54 @@
   },
   "works": [
     {
+      "id": "stone-mass-of-dots",
+      "title": {
+        "en": "Mass of Dots",
+        "zh": "点阵的弥撒"
+      },
+      "year": "2022",
+      "medium": {
+        "en": "Mineral pigment on Xuan paper",
+        "zh": "矿物颜料 宣纸"
+      },
+      "size": "",
+      "series": "stone",
+      "image": "images/stone-mass-of-dots.jpg",
+      "visible": true
+    },
+    {
+      "id": "stone-suspended-genome",
+      "title": {
+        "en": "Suspended Genome",
+        "zh": "悬浮的基因组"
+      },
+      "year": "2022",
+      "medium": {
+        "en": "Mineral pigment on Xuan paper",
+        "zh": "矿物颜料 宣纸"
+      },
+      "size": "",
+      "series": "stone",
+      "image": "images/stone-suspended-genome.jpg",
+      "visible": true
+    },
+    {
+      "id": "stone-triptych-blessing",
+      "title": {
+        "en": "Stone Series Triptych No. 1",
+        "zh": "石系列三联福1"
+      },
+      "year": "2022",
+      "medium": {
+        "en": "Mineral pigment on Xuan paper",
+        "zh": "矿物颜料 宣纸"
+      },
+      "size": "",
+      "series": "stone",
+      "image": "images/stone-triptych-blessing.jpg",
+      "visible": true
+    },
+    {
       "id": "rain-bamboo",
       "title": {
         "en": "Rain Bamboo",
@@ -64,7 +112,8 @@
         "en": "The rain was not drawn. Pigment and water are released from the upper edge and gravity writes every line. Behind the curtain stands a bamboo grove, one organism joined underground, and in the centre a pale clearing where the rain thins into light.",
         "zh": "画中的雨并非画出,而是颜料与水从上沿释放,由重力写下每一条线。雨帘之后是一片竹林,地下相连、如同一个生命体;画面中央的留白,是雨渐薄成光的地方。"
       },
-      "visible": true
+      "visible": true,
+      "series": "plant"
     },
     {
       "id": "rain-pine",
@@ -83,7 +132,8 @@
         "en": "A solitary pine and its stone meet vertical lines of white, diluted pigment released from the upper edge and surrendered to gravity. The lines pass through needle, stone and trunk without deviating.",
         "zh": "一株孤松与岩石,迎面遇上垂直的白色线条:稀释的颜料从纸的上沿释放,交给重力。线条穿过松针、岩石与树干,毫不偏移。"
       },
-      "visible": true
+      "visible": true,
+      "series": "plant"
     },
     {
       "id": "wind-rain-rock-bamboo",
@@ -102,7 +152,8 @@
         "en": "Wind enters the series. Diagonal lines sweep across dark rock before the painting clears into upright bamboo, dissolving into a pale, backlit distance.",
         "zh": "风进入了这个系列。斜向的线条扫过深色岩石,画面随后转为挺立的竹,消融在苍白、逆光的远处。"
       },
-      "visible": true
+      "visible": true,
+      "series": "plant"
     },
     {
       "id": "botanical-garden-in-the-rain",
@@ -121,7 +172,8 @@
         "en": "A garden seen through a curtain of falling water. First exhibited as Botanical Garden.",
         "zh": "隔着一道落水的帘幕看见的植物园。此前展出时名为《植物园》。"
       },
-      "visible": true
+      "visible": true,
+      "series": "plant"
     },
     {
       "id": "rain-banana-leaf-rock",
@@ -140,7 +192,8 @@
         "en": "Banana leaves and perforated rock behind interwoven lines of rain: the leaf's way of telling you it heard the water.",
         "zh": "芭蕉叶与多孔的岩石,隐在交织的雨线之后:这是叶子告诉你它听见了水的方式。"
       },
-      "visible": true
+      "visible": true,
+      "series": "plant"
     },
     {
       "id": "mountain-bamboo-1",
@@ -159,7 +212,8 @@
         "en": "Cool, silver-white. One young bamboo seen through a curtain of vertical lines, painted three times with only the colour temperature changed.",
         "zh": "冷调,银白。同一株幼竹,隔着垂直线条的帘幕,画了三次,只改变色温。"
       },
-      "visible": true
+      "visible": true,
+      "series": "plant"
     },
     {
       "id": "mountain-bamboo-2",
@@ -178,7 +232,8 @@
         "en": "Warm, orange-red. One young bamboo seen through a curtain of vertical lines, painted three times with only the colour temperature changed.",
         "zh": "暖调,橙红。同一株幼竹,隔着垂直线条的帘幕,画了三次,只改变色温。"
       },
-      "visible": true
+      "visible": true,
+      "series": "plant"
     },
     {
       "id": "mountain-bamboo-3",
@@ -197,7 +252,8 @@
         "en": "Green-gold. One young bamboo seen through a curtain of vertical lines, painted three times with only the colour temperature changed.",
         "zh": "绿金。同一株幼竹,隔着垂直线条的帘幕,画了三次,只改变色温。"
       },
-      "visible": true
+      "visible": true,
+      "series": "plant"
     },
     {
       "id": "day-rain-bamboo-rock",
@@ -216,7 +272,8 @@
         "en": "A warm coral-orange glow through ochre and gold lines.",
         "zh": "暖珊瑚橙的光,透过赭色与金色的线条。"
       },
-      "visible": true
+      "visible": true,
+      "series": "plant"
     },
     {
       "id": "night-rain-bamboo-rock",
@@ -235,7 +292,8 @@
         "en": "A pale, near-white disc, the moon or an opening in the rain itself, drawn with the same lines that make the rain.",
         "zh": "一轮近乎白色的圆盘,是月亮,也是雨自身的一个缺口,由造雨的同一些线条画成。"
       },
-      "visible": true
+      "visible": true,
+      "series": "plant"
     },
     {
       "id": "day-rain-banana-leaf-rock",
@@ -254,7 +312,8 @@
         "en": "A small warm orange disc, a low sun, behind interwoven lines above dark rock and cooler banana leaves.",
         "zh": "一轮小小的暖橙圆盘,如低垂的太阳,在交织的线条之后,下方是深色岩石与偏冷的芭蕉叶。"
       },
-      "visible": true
+      "visible": true,
+      "series": "plant"
     },
     {
       "id": "night-rain-banana-leaf-rock",
@@ -273,7 +332,8 @@
         "en": "A luminous white disc dissolves leaves and rock into near-abstraction; only the dark, perforated stone stays clearly legible.",
         "zh": "一轮发光的白色圆盘,把叶与石融成近乎抽象;只有深色、有孔的石头依然清晰。"
       },
-      "visible": true
+      "visible": true,
+      "series": "plant"
     }
   ],
   "exhibitions": [
@@ -298,11 +358,7 @@
         "en": "",
         "zh": ""
       },
-      "link": "",
-      "dateText": {
-        "en": "",
-        "zh": ""
-      }
+      "link": ""
     },
     {
       "id": "ex-2026-art021",
@@ -352,11 +408,7 @@
         "en": "31 works on paper.",
         "zh": "31 件纸本作品。"
       },
-      "link": "https://www.sohu.com/a/1032210886_121956422",
-      "dateText": {
-        "en": "",
-        "zh": ""
-      }
+      "link": "https://www.sohu.com/a/1032210886_121956422"
     },
     {
       "id": "ex-2025-art021",
@@ -379,11 +431,7 @@
         "en": "Exhibited Rain Bamboo.",
         "zh": "展出《雨竹》。"
       },
-      "link": "",
-      "dateText": {
-        "en": "",
-        "zh": ""
-      }
+      "link": ""
     },
     {
       "id": "ex-2025-third",
@@ -406,11 +454,7 @@
         "en": "",
         "zh": ""
       },
-      "link": "",
-      "dateText": {
-        "en": "",
-        "zh": ""
-      }
+      "link": ""
     },
     {
       "id": "ex-2025-fotile",
@@ -433,11 +477,7 @@
         "en": "With Shi Jiayi and Fan Yufei.",
         "zh": "吴晓东、石佳宜、樊雨飞。"
       },
-      "link": "",
-      "dateText": {
-        "en": "",
-        "zh": ""
-      }
+      "link": ""
     },
     {
       "id": "ex-2025-fulixing",
@@ -460,11 +500,7 @@
         "en": "",
         "zh": ""
       },
-      "link": "",
-      "dateText": {
-        "en": "",
-        "zh": ""
-      }
+      "link": ""
     },
     {
       "id": "ex-2024-ten",
@@ -487,11 +523,7 @@
         "en": "",
         "zh": ""
       },
-      "link": "https://www.taoart.com/information/detail/54771.htm",
-      "dateText": {
-        "en": "",
-        "zh": ""
-      }
+      "link": "https://www.taoart.com/information/detail/54771.htm"
     }
   ],
   "news": [],
@@ -533,36 +565,6 @@
             "text": {
               "en": "It refuses the passive repetition of inherited brushwork habit (the first route), and it refuses the frictionless production of silicon-based algorithmic images (the second). The third route is the tension and resonance between carbon-based life and physical law: gravity, entropy, capillary seepage. Together these natural processes make up a “biological noise” that cannot be digitised.",
               "zh": "既拒绝传统笔墨惯性的被动重复(第一条路线),也拒绝硅基算法图像的无摩擦生产(第二条路线)。第三条路线是碳基生命与物理法则之间的张力与共鸣:重力、熵、毛细渗透。这些自然过程共同构成了无法被数字化的“生命噪声”(Biological Noise)。"
-            }
-          },
-          {
-            "title": {
-              "en": "Yi Pai Spirit",
-              "zh": "意派精神"
-            },
-            "text": {
-              "en": "Beyond the opposition of representation and expression, it returns to the artist's intuitive arising of “yi” (intention). The picture does not imitate an image; it presents a state of life directly, letting intention emerge in the biological time of the paper through the natural behaviour of the material.",
-              "zh": "超越“再现”与“表现”的二元对立,回归艺术家对“意”的直觉生发。吴晓东的画面并非图像的模仿,而是对生命状态的直接呈现:通过物质媒介的自然行为,让“意”在宣纸的生物时间中自然涌现。"
-            }
-          },
-          {
-            "title": {
-              "en": "New Nebulism",
-              "zh": "新朦胧主义"
-            },
-            "text": {
-              "en": "Deliberate blurring of edges is not technical vagueness but fidelity to life: there is no absolute border between cells, no clean division between ecosystems. Against the over-definition and informational violence of digital images, material blur protects the complexity of living things.",
-              "zh": "边界的刻意模糊不是技法的含混,而是对生命状态的忠实描摹:细胞之间没有绝对边界,生态系统之间没有清晰分割。吴晓东的画面以朦胧对抗数字图像的过度清晰与信息暴力,以物质的模糊性守护生命的复杂性。"
-            }
-          },
-          {
-            "title": {
-              "en": "Carbon Time",
-              "zh": "碳基时间"
-            },
-            "text": {
-              "en": "Every layer of pigment on the paper is a physical inscription of time: the geological diffusion of mineral colour through fibre, the irreversible tracks of falling water. This gives the work a carbon-based temporality that algorithms cannot simulate: slow, weighted, and not to be accelerated.",
-              "zh": "宣纸上的每一层颜料沉积,都是时间的物理铭刻。矿物颜料在纤维中的地质性扩散、重力流淌的不可逆行迹,赋予作品一种算法永远无法模拟的“碳基时间性”:缓慢的、有重量的、不可被加速的生命时间。"
             }
           }
         ]
